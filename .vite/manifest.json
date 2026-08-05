@@ -35,7 +35,7 @@
     ]
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-DYkFQIn6.js",
+    "file": "assets/AnimatedOpening-wLf2bUSJ.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -51,7 +51,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-ViGWX7vL.js",
+    "file": "assets/BottomNav-Bz33aNMg.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -73,8 +73,18 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/components/MembershipCta.tsx": {
+    "file": "assets/MembershipCta-DyVxkqgX.js",
+    "name": "MembershipCta",
+    "src": "app/components/MembershipCta.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/components/SettingsScreen.tsx": {
-    "file": "assets/SettingsScreen-D-R9ycyJ.js",
+    "file": "assets/SettingsScreen-4VMINuRQ.js",
     "name": "SettingsScreen",
     "src": "app/components/SettingsScreen.tsx",
     "isDynamicEntry": true,
@@ -86,13 +96,13 @@
     ]
   },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-BeAiISLI.js",
+    "file": "assets/gsap-0ZAxxvUd.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DMuZdiou.js",
+    "file": "assets/layout-segment-context-CEPqNgQd.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -103,7 +113,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-Dih7FBFR.js",
+    "file": "assets/index-CauZpJo6.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -118,7 +128,8 @@
       "app/components/AnimatedOpening.tsx",
       "app/components/DreamJourney.tsx",
       "app/components/SettingsScreen.tsx",
-      "app/components/BottomNav.tsx"
+      "app/components/BottomNav.tsx",
+      "app/components/MembershipCta.tsx"
     ]
   }
 }
