@@ -28,7 +28,7 @@
     "name": "rolldown-runtime"
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-CyhKLyGy.js",
+    "file": "assets/AnimatedOpening-BmDjn01W.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -43,7 +43,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-ChS3PdaI.js",
+    "file": "assets/BottomNav-BBpwaEgj.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -55,7 +55,7 @@
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-DTZ5GKsq.js",
+    "file": "assets/DreamJourney-Czj7MOnI.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
@@ -72,7 +72,7 @@
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-BVAdM6R0.js",
+    "file": "assets/layout-segment-context-V7l6Bxz7.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -83,7 +83,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BYNBAv-C.js",
+    "file": "assets/index-DV236oM-.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
