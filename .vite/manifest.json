@@ -37,15 +37,22 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_library-big-Tn0JvGh_.js": {
-    "file": "assets/library-big-Tn0JvGh_.js",
+  "_house-DvYkQgTo.js": {
+    "file": "assets/house-DvYkQgTo.js",
+    "name": "house",
+    "imports": [
+      "_createLucideIcon-DDARWCLE.js"
+    ]
+  },
+  "_library-big-Bwwkgdba.js": {
+    "file": "assets/library-big-Bwwkgdba.js",
     "name": "library-big",
     "imports": [
       "_createLucideIcon-DDARWCLE.js"
     ]
   },
-  "_reviews-BwgLdTZ0.js": {
-    "file": "assets/reviews-BwgLdTZ0.js",
+  "_reviews-CJZ06rjx.js": {
+    "file": "assets/reviews-CJZ06rjx.js",
     "name": "reviews",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -56,19 +63,24 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
-  "_rotate-ccw-ujNeQ0PQ.js": {
-    "file": "assets/rotate-ccw-ujNeQ0PQ.js",
+  "_rotate-ccw-uL0-1bQR.js": {
+    "file": "assets/rotate-ccw-uL0-1bQR.js",
     "name": "rotate-ccw",
     "imports": [
       "_createLucideIcon-DDARWCLE.js"
     ]
   },
-  "_talisman-names-ijuEI0m4.js": {
-    "file": "assets/talisman-names-ijuEI0m4.js",
-    "name": "talisman-names"
+  "_vault-BptOJw-G.js": {
+    "file": "assets/vault-BptOJw-G.js",
+    "name": "vault",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_framework-CXnKph_e.js"
+    ]
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-C4fF7-il.js",
+    "file": "assets/AnimatedOpening-BgDxkr5e.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -76,7 +88,7 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_chevron-right-CcVyTnMz.js",
-      "_rotate-ccw-ujNeQ0PQ.js",
+      "_rotate-ccw-uL0-1bQR.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -84,7 +96,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-BrzoZdIX.js",
+    "file": "assets/BottomNav-BBxRTPFw.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -92,25 +104,26 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "app/components/AnimatedOpening.tsx",
       "_createLucideIcon-DDARWCLE.js",
-      "_library-big-Tn0JvGh_.js",
+      "_house-DvYkQgTo.js",
+      "_library-big-Bwwkgdba.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-Bi4wye6r.js",
+    "file": "assets/DreamJourney-BZoVRQfE.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_talisman-names-ijuEI0m4.js",
+      "_vault-BptOJw-G.js",
       "_createLucideIcon-DDARWCLE.js",
       "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/HeaderActions.tsx": {
-    "file": "assets/HeaderActions-DzZp7x5T.js",
+    "file": "assets/HeaderActions-BxlvP90_.js",
     "name": "HeaderActions",
     "src": "app/components/HeaderActions.tsx",
     "isDynamicEntry": true,
@@ -123,7 +136,7 @@
     ]
   },
   "app/components/MembershipCta.tsx": {
-    "file": "assets/MembershipCta-ZbET8VEU.js",
+    "file": "assets/MembershipCta-CzdqDfgC.js",
     "name": "MembershipCta",
     "src": "app/components/MembershipCta.tsx",
     "isDynamicEntry": true,
@@ -133,52 +146,64 @@
     ]
   },
   "app/components/ReviewScreen.tsx": {
-    "file": "assets/ReviewScreen-Dc94kWRF.js",
+    "file": "assets/ReviewScreen-DcTRvkSM.js",
     "name": "ReviewScreen",
     "src": "app/components/ReviewScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_talisman-names-ijuEI0m4.js",
-      "_reviews-BwgLdTZ0.js",
-      "_library-big-Tn0JvGh_.js",
+      "_reviews-CJZ06rjx.js",
+      "_library-big-Bwwkgdba.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/ReviewsSection.tsx": {
-    "file": "assets/ReviewsSection-Be2eQCBd.js",
+    "file": "assets/ReviewsSection-Cz5tbMb8.js",
     "name": "ReviewsSection",
     "src": "app/components/ReviewsSection.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_reviews-BwgLdTZ0.js",
+      "_reviews-CJZ06rjx.js",
       "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/SettingsScreen.tsx": {
-    "file": "assets/SettingsScreen-BvQLOXIs.js",
+    "file": "assets/SettingsScreen-DGDEhhnd.js",
     "name": "SettingsScreen",
     "src": "app/components/SettingsScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_reviews-BwgLdTZ0.js",
+      "_reviews-CJZ06rjx.js",
       "_createLucideIcon-DDARWCLE.js",
       "_bell-s0Dn-oYS.js",
       "_chevron-right-CcVyTnMz.js",
-      "_rotate-ccw-ujNeQ0PQ.js",
+      "_rotate-ccw-uL0-1bQR.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/VaultScreen.tsx": {
+    "file": "assets/VaultScreen-vwmgsKEr.js",
+    "name": "VaultScreen",
+    "src": "app/components/VaultScreen.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_vault-BptOJw-G.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_house-DvYkQgTo.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-CBk8eBPM.js",
+    "file": "assets/gsap-CpQIFqWG.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-CS-6kVAL.js",
+    "file": "assets/layout-segment-context-BFX7s5vY.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -189,7 +214,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CS-t91Lg.js",
+    "file": "assets/index-DKpTwFHx.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -204,6 +229,7 @@
       "_Icon-C6gSHICf.js",
       "app/components/HeaderActions.tsx",
       "virtual:vinext-app-browser-entry",
+      "app/components/VaultScreen.tsx",
       "app/components/AnimatedOpening.tsx",
       "app/components/DreamJourney.tsx",
       "app/components/SettingsScreen.tsx",
