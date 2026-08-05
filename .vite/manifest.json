@@ -7,16 +7,9 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_chevron-right-IkSiebmP.js": {
-    "file": "assets/chevron-right-IkSiebmP.js",
+  "_chevron-right-BL3CHSFm.js": {
+    "file": "assets/chevron-right-BL3CHSFm.js",
     "name": "chevron-right",
-    "imports": [
-      "_createLucideIcon-DDARWCLE.js"
-    ]
-  },
-  "_createLucideIcon-DDARWCLE.js": {
-    "file": "assets/createLucideIcon-DDARWCLE.js",
-    "name": "createLucideIcon",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_Icon-C6gSHICf.js",
@@ -35,15 +28,14 @@
     "name": "rolldown-runtime"
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-Dsd2iM6C.js",
+    "file": "assets/AnimatedOpening-CyhKLyGy.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_createLucideIcon-DDARWCLE.js",
-      "_chevron-right-IkSiebmP.js",
+      "_chevron-right-BL3CHSFm.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -51,36 +43,36 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-BU2Qpx9b.js",
+    "file": "assets/BottomNav-ChS3PdaI.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_createLucideIcon-DDARWCLE.js",
+      "app/components/AnimatedOpening.tsx",
+      "_chevron-right-BL3CHSFm.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-DBjuuByX.js",
+    "file": "assets/DreamJourney-DTZ5GKsq.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_createLucideIcon-DDARWCLE.js",
-      "_chevron-right-IkSiebmP.js",
+      "_chevron-right-BL3CHSFm.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-BWYn5IvW.js",
+    "file": "assets/gsap-H2IwV2rr.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-C2wNUONB.js",
+    "file": "assets/layout-segment-context-BVAdM6R0.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -91,7 +83,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-EBNN5AgN.js",
+    "file": "assets/index-BYNBAv-C.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
