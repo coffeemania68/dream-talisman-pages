@@ -27,8 +27,15 @@
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
+  "_rotate-ccw-Cu8f8EWy.js": {
+    "file": "assets/rotate-ccw-Cu8f8EWy.js",
+    "name": "rotate-ccw",
+    "imports": [
+      "_chevron-right-BL3CHSFm.js"
+    ]
+  },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-BmDjn01W.js",
+    "file": "assets/AnimatedOpening-D3tSthFn.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -36,6 +43,7 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_chevron-right-BL3CHSFm.js",
+      "_rotate-ccw-Cu8f8EWy.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -43,7 +51,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-BBpwaEgj.js",
+    "file": "assets/BottomNav-nE4SM8gd.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -55,7 +63,7 @@
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-Czj7MOnI.js",
+    "file": "assets/DreamJourney-Bp2ft1he.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
@@ -65,14 +73,26 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/components/SettingsScreen.tsx": {
+    "file": "assets/SettingsScreen-D-R9ycyJ.js",
+    "name": "SettingsScreen",
+    "src": "app/components/SettingsScreen.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_chevron-right-BL3CHSFm.js",
+      "_rotate-ccw-Cu8f8EWy.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-H2IwV2rr.js",
+    "file": "assets/gsap-BeAiISLI.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-V7l6Bxz7.js",
+    "file": "assets/layout-segment-context-BQ-sUhlI.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -83,7 +103,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DV236oM-.js",
+    "file": "assets/index-Bqq-5d-3.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -97,6 +117,7 @@
       "virtual:vinext-app-browser-entry",
       "app/components/AnimatedOpening.tsx",
       "app/components/DreamJourney.tsx",
+      "app/components/SettingsScreen.tsx",
       "app/components/BottomNav.tsx"
     ]
   }
