@@ -7,16 +7,23 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_bell-DMqGq3eK.js": {
-    "file": "assets/bell-DMqGq3eK.js",
+  "_bell-s0Dn-oYS.js": {
+    "file": "assets/bell-s0Dn-oYS.js",
     "name": "bell",
     "imports": [
-      "_chevron-right-BL3CHSFm.js"
+      "_createLucideIcon-DDARWCLE.js"
     ]
   },
-  "_chevron-right-BL3CHSFm.js": {
-    "file": "assets/chevron-right-BL3CHSFm.js",
+  "_chevron-right-CcVyTnMz.js": {
+    "file": "assets/chevron-right-CcVyTnMz.js",
     "name": "chevron-right",
+    "imports": [
+      "_createLucideIcon-DDARWCLE.js"
+    ]
+  },
+  "_createLucideIcon-DDARWCLE.js": {
+    "file": "assets/createLucideIcon-DDARWCLE.js",
+    "name": "createLucideIcon",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_Icon-C6gSHICf.js",
@@ -30,27 +37,46 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
+  "_library-big-Tn0JvGh_.js": {
+    "file": "assets/library-big-Tn0JvGh_.js",
+    "name": "library-big",
+    "imports": [
+      "_createLucideIcon-DDARWCLE.js"
+    ]
+  },
+  "_reviews-BwgLdTZ0.js": {
+    "file": "assets/reviews-BwgLdTZ0.js",
+    "name": "reviews",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "_rolldown-runtime-S-ySWqyJ.js": {
     "file": "assets/rolldown-runtime-S-ySWqyJ.js",
     "name": "rolldown-runtime"
   },
-  "_rotate-ccw-8D13KE0L.js": {
-    "file": "assets/rotate-ccw-8D13KE0L.js",
+  "_rotate-ccw-ujNeQ0PQ.js": {
+    "file": "assets/rotate-ccw-ujNeQ0PQ.js",
     "name": "rotate-ccw",
     "imports": [
-      "_chevron-right-BL3CHSFm.js"
+      "_createLucideIcon-DDARWCLE.js"
     ]
   },
+  "_talisman-names-ijuEI0m4.js": {
+    "file": "assets/talisman-names-ijuEI0m4.js",
+    "name": "talisman-names"
+  },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-3RHZw6VP.js",
+    "file": "assets/AnimatedOpening-C4fF7-il.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_chevron-right-BL3CHSFm.js",
-      "_rotate-ccw-8D13KE0L.js",
+      "_chevron-right-CcVyTnMz.js",
+      "_rotate-ccw-ujNeQ0PQ.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -58,42 +84,46 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-BL4VRBnc.js",
+    "file": "assets/BottomNav-BrzoZdIX.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "app/components/AnimatedOpening.tsx",
-      "_chevron-right-BL3CHSFm.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_library-big-Tn0JvGh_.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-Dw5SYGnZ.js",
+    "file": "assets/DreamJourney-Bi4wye6r.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_chevron-right-BL3CHSFm.js",
+      "_talisman-names-ijuEI0m4.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/HeaderActions.tsx": {
-    "file": "assets/HeaderActions-BiCS8P4f.js",
+    "file": "assets/HeaderActions-DzZp7x5T.js",
     "name": "HeaderActions",
     "src": "app/components/HeaderActions.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_chevron-right-BL3CHSFm.js",
-      "_bell-DMqGq3eK.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_bell-s0Dn-oYS.js",
+      "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/MembershipCta.tsx": {
-    "file": "assets/MembershipCta-DLlg1WAz.js",
+    "file": "assets/MembershipCta-ZbET8VEU.js",
     "name": "MembershipCta",
     "src": "app/components/MembershipCta.tsx",
     "isDynamicEntry": true,
@@ -102,27 +132,53 @@
       "_framework-CXnKph_e.js"
     ]
   },
+  "app/components/ReviewScreen.tsx": {
+    "file": "assets/ReviewScreen-Dc94kWRF.js",
+    "name": "ReviewScreen",
+    "src": "app/components/ReviewScreen.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_talisman-names-ijuEI0m4.js",
+      "_reviews-BwgLdTZ0.js",
+      "_library-big-Tn0JvGh_.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/components/ReviewsSection.tsx": {
+    "file": "assets/ReviewsSection-Be2eQCBd.js",
+    "name": "ReviewsSection",
+    "src": "app/components/ReviewsSection.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_reviews-BwgLdTZ0.js",
+      "_chevron-right-CcVyTnMz.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/components/SettingsScreen.tsx": {
-    "file": "assets/SettingsScreen-Uc4kDxnE.js",
+    "file": "assets/SettingsScreen-BvQLOXIs.js",
     "name": "SettingsScreen",
     "src": "app/components/SettingsScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_chevron-right-BL3CHSFm.js",
-      "_bell-DMqGq3eK.js",
-      "_rotate-ccw-8D13KE0L.js",
+      "_reviews-BwgLdTZ0.js",
+      "_createLucideIcon-DDARWCLE.js",
+      "_bell-s0Dn-oYS.js",
+      "_chevron-right-CcVyTnMz.js",
+      "_rotate-ccw-ujNeQ0PQ.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-BOu0Jjqq.js",
+    "file": "assets/gsap-CBk8eBPM.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-BsqPFHXO.js",
+    "file": "assets/layout-segment-context-CS-6kVAL.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -133,7 +189,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CJUoYG5E.js",
+    "file": "assets/index-CS-t91Lg.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -142,7 +198,9 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
+      "app/components/ReviewScreen.tsx",
       "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/components/ReviewsSection.tsx",
       "_Icon-C6gSHICf.js",
       "app/components/HeaderActions.tsx",
       "virtual:vinext-app-browser-entry",
