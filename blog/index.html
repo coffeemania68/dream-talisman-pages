@@ -25,7 +25,8 @@ img{max-width:100%;display:block}
 .blog-brand{font-family:"Hahmlet",serif;font-weight:700;font-size:19px;letter-spacing:-.03em}
 .blog-topbar nav{display:flex;gap:18px;font-size:13px;color:var(--ink-soft)}
 .blog-footer{padding:34px 0 44px;border-top:1px solid var(--line);margin-top:60px;font-size:12px;color:var(--ink-faint);text-align:center;line-height:1.8}
-.blog-ad-slot{min-height:0}
+.blog-ad-slot{margin:34px 0;min-height:250px}
+.blog-ad-slot:has(ins[data-ad-status="unfilled"]){display:none}
 .blog-table{width:100%;max-width:720px;border-collapse:collapse;margin:0 0 20px;font-size:13.5px}
 .blog-table th,.blog-table td{border:1px solid var(--line);padding:9px 13px;text-align:left;word-break:keep-all}
 .blog-table th{background:rgba(74,53,39,.05);font-weight:700}
