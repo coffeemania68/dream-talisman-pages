@@ -1,6 +1,6 @@
 {
-  "_AdSlot-Bjpy78me.js": {
-    "file": "assets/AdSlot-Bjpy78me.js",
+  "_AdSlot-wz9HIUkF.js": {
+    "file": "assets/AdSlot-wz9HIUkF.js",
     "name": "AdSlot",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -80,7 +80,7 @@
     ]
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-ZMFm8mQb.js",
+    "file": "assets/AnimatedOpening-DRbBMmYw.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -96,7 +96,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-Dz1erdNW.js",
+    "file": "assets/BottomNav-Dj25t4lG.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -110,13 +110,13 @@
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-BcYvbVsg.js",
+    "file": "assets/DreamJourney-C61pgPdo.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_AdSlot-Bjpy78me.js",
+      "_AdSlot-wz9HIUkF.js",
       "_createLucideIcon-DDARWCLE.js",
       "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
@@ -184,13 +184,13 @@
     ]
   },
   "app/components/VaultScreen.tsx": {
-    "file": "assets/VaultScreen-9JMWzzb6.js",
+    "file": "assets/VaultScreen-B8dNQMlU.js",
     "name": "VaultScreen",
     "src": "app/components/VaultScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_AdSlot-Bjpy78me.js",
+      "_AdSlot-wz9HIUkF.js",
       "_createLucideIcon-DDARWCLE.js",
       "_house-DvYkQgTo.js",
       "_framework-CXnKph_e.js"
@@ -203,7 +203,7 @@
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DdWEWiDe.js",
+    "file": "assets/layout-segment-context-NTeNItdd.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -214,7 +214,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CByvbDqZ.js",
+    "file": "assets/index-CP4A1-MH.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
