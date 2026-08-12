@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>꿈부적 — Whale Motion Prototype</title>
+<style>
+  :root {
+    --cycle: 7s;        /* tail full stroke cycle */
+    --fin-cycle: 8.4s;
+    --buoy-cycle: 12s;
+    --pitch-cycle: 15s;
+    --drift-cycle: 26s;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 26px 16px 60px;
+    background: #20241f;
+    font-family: "Apple SD Gothic Neo", system-ui, sans-serif;
+    color: #e8e4da;
+  }
+
+  h1 { margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.08em; opacity: 0.75; }
+
+  .stage {
+    position: relative;
+    width: min(92vw, 390px);
+    aspect-ratio: 390 / 700;
+    overflow: hidden;
+    border-radius: 26px;
+    background-image: url("/art/opening-whale-environment.png");
+    background-size: cover;
+    background-position: center 30%;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  }
+
+  /* ---------- whale rig ---------- */
+
+  .whale-drift {
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    width: 56%;
+    animation: drift calc(var(--drift-cycle) / 2) ease-in-out infinite alternate;
+  }
+
+  .whale-buoy { animation: buoy calc(var(--buoy-cycle) / 2) ease-in-out infinite alternate; }
+
+  .whale-pitch {
+    transform-origin: 50% 45%;
+    animation: pitch calc(var(--pitch-cycle) / 2) ease-in-out -3s infinite alternate;
+  }
+
+  .whale-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    filter: drop-shadow(0 18px 25px rgba(35, 79, 73, 0.16));
+  }
+
+  /* joint oscillation — small angles only, feathered masks hide the seams */
+  .rig-tail {
+    transform-box: fill-box;
+    transform-origin: 25.4% 53.5%;
+    animation: tail-swing calc(var(--cycle) / 2) ease-in-out infinite alternate;
+  }
+
+  .rig-fluke {
+    transform-box: fill-box;
+    transform-origin: 17.25% 40.5%;
+    animation: fluke-swing calc(var(--cycle) / 2) ease-in-out calc(var(--cycle) * -0.83) infinite alternate;
+  }
+
+  .rig-fin-near {
+    transform-box: fill-box;
+    transform-origin: 64% 51%;
+    animation: fin-near-swing calc(var(--fin-cycle) / 2) ease-in-out -1.5s infinite alternate;
+  }
+
+  .rig-fin-far {
+    transform-box: fill-box;
+    transform-origin: 69.5% 58%;
+    animation: fin-far-swing calc(var(--fin-cycle) / 2) ease-in-out -4.9s infinite alternate;
+  }
+
+  @keyframes tail-swing     { from { transform: rotate(-2.6deg); } to { transform: rotate(3.2deg); } }
+  @keyframes fluke-swing    { from { transform: rotate(-4.2deg); } to { transform: rotate(4.6deg); } }
+  @keyframes fin-near-swing { from { transform: rotate(-2.2deg); } to { transform: rotate(2.1deg); } }
+  @keyframes fin-far-swing  { from { transform: rotate(-1.8deg); } to { transform: rotate(1.7deg); } }
+  @keyframes buoy           { from { transform: translateY(-1.6%); } to { transform: translateY(1.8%); } }
+  @keyframes pitch          { from { transform: rotate(-0.9deg); } to { transform: rotate(1deg); } }
+  @keyframes drift          { from { transform: translateX(-4%); } to { transform: translateX(4%); } }
+
+  /* ---------- comparison: old sticker motion ---------- */
+  .whale-sticker {
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 56%;
+    display: none;
+    animation: sticker 9s linear infinite;
+    filter: drop-shadow(0 18px 25px rgba(35, 79, 73, 0.16));
+  }
+  @keyframes sticker {
+    from { transform: translateX(-120%); }
+    to { transform: translateX(320%); }
+  }
+
+  .stage.mode-before .whale-drift { display: none; }
+  .stage.mode-before .whale-sticker { display: block; }
+
+  /* ---------- debug ---------- */
+  .debug-layer { display: none; }
+  .stage.debug .debug-layer { display: block; }
+  .stage.paused * { animation-play-state: paused !important; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .stage * { animation: none !important; }
+  }
+
+  /* ---------- controls ---------- */
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .controls button {
+    padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.06);
+    color: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .controls button.on { background: rgba(140, 200, 180, 0.25); border-color: rgba(140, 200, 180, 0.5); }
+</style>
+</head>
+<body>
+<h1>WHALE MOTION PROTOTYPE — jointed swim</h1>
+
+<div class="stage" id="stage">
+  <img class="whale-sticker" src="/art/opening-whale.png" alt="" />
+
+  <div class="whale-drift">
+    <div class="whale-buoy">
+      <div class="whale-pitch">
+        <svg class="whale-svg" viewBox="0 0 1536 1024" role="img" aria-label="헤엄치는 옥 고래">
+          <defs>
+            <!-- wrist line through (265,415), normal (0.76,0.65): separates flukes (up-left) from peduncle -->
+            <linearGradient id="grad-fluke" gradientUnits="userSpaceOnUse" x1="238" y1="392" x2="292" y2="438">
+              <stop offset="0" stop-color="#fff" />
+              <stop offset="1" stop-color="#000" />
+            </linearGradient>
+            <linearGradient id="grad-wrist-inv" gradientUnits="userSpaceOnUse" x1="238" y1="392" x2="292" y2="438">
+              <stop offset="0" stop-color="#000" />
+              <stop offset="1" stop-color="#fff" />
+            </linearGradient>
+            <!-- peduncle fades out into the body across x 415 → 490 -->
+            <linearGradient id="grad-tail-out" gradientUnits="userSpaceOnUse" x1="415" y1="0" x2="490" y2="0">
+              <stop offset="0" stop-color="#fff" />
+              <stop offset="1" stop-color="#000" />
+            </linearGradient>
+            <!-- body becomes opaque before the peduncle starts fading: ramp x 340 → 400 -->
+            <linearGradient id="grad-body" gradientUnits="userSpaceOnUse" x1="340" y1="0" x2="400" y2="0">
+              <stop offset="0" stop-color="#000" />
+              <stop offset="1" stop-color="#fff" />
+            </linearGradient>
+
+            <filter id="feather" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur stdDeviation="18" />
+            </filter>
+
+            <mask id="mask-body" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+              <rect width="1536" height="1024" fill="url(#grad-body)" />
+            </mask>
+
+            <mask id="mask-tail" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+              <rect x="0" y="0" width="415" height="1024" fill="url(#grad-wrist-inv)" />
+              <rect x="415" y="0" width="121" height="1024" fill="url(#grad-tail-out)" />
+            </mask>
+
+            <mask id="mask-fluke" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+              <rect width="1536" height="1024" fill="url(#grad-fluke)" />
+            </mask>
+
+            <!-- near pectoral fin: capsule root(983,522) → tip(700,855) -->
+            <mask id="mask-fin-near" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+              <ellipse cx="842" cy="689" rx="255" ry="105" transform="rotate(130.4 842 689)" fill="#fff" filter="url(#feather)" />
+            </mask>
+
+            <!-- far pectoral fin: capsule root(1068,594) → tip(990,840) -->
+            <mask id="mask-fin-far" maskUnits="userSpaceOnUse" x="0" y="0" width="1536" height="1024">
+              <ellipse cx="1029" cy="717" rx="150" ry="78" transform="rotate(107.6 1029 717)" fill="#fff" filter="url(#feather)" />
+            </mask>
+          </defs>
+
+          <!-- far fin behind the body -->
+          <g class="rig-fin-far">
+            <image href="/art/opening-whale.png" width="1536" height="1024" mask="url(#mask-fin-far)" />
+          </g>
+
+          <!-- body (keeps a static tail stub + static fins as opaque underlay) -->
+          <image href="/art/opening-whale.png" width="1536" height="1024" mask="url(#mask-body)" />
+
+          <!-- two-joint tail chain: peduncle rotates at body joint, flukes rotate at wrist with phase lag -->
+          <g class="rig-tail">
+            <image href="/art/opening-whale.png" width="1536" height="1024" mask="url(#mask-tail)" />
+            <g class="rig-fluke">
+              <image href="/art/opening-whale.png" width="1536" height="1024" mask="url(#mask-fluke)" />
+            </g>
+          </g>
+
+          <!-- near fin in front -->
+          <g class="rig-fin-near">
+            <image href="/art/opening-whale.png" width="1536" height="1024" mask="url(#mask-fin-near)" />
+          </g>
+
+          <!-- debug: joints + mask seams -->
+          <g class="debug-layer">
+            <circle cx="390" cy="548" r="14" fill="rgba(255,60,60,0.9)" />
+            <circle cx="265" cy="415" r="14" fill="rgba(255,160,40,0.9)" />
+            <circle cx="983" cy="522" r="14" fill="rgba(60,120,255,0.9)" />
+            <circle cx="1068" cy="594" r="14" fill="rgba(160,60,255,0.9)" />
+            <line x1="340" y1="0" x2="340" y2="1024" stroke="rgba(255,255,0,0.5)" stroke-width="3" />
+            <line x1="490" y1="0" x2="490" y2="1024" stroke="rgba(0,255,255,0.5)" stroke-width="3" />
+            <line x1="238" y1="392" x2="292" y2="438" stroke="rgba(255,0,0,0.8)" stroke-width="4" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <button id="btn-after" class="on">After — jointed</button>
+  <button id="btn-before">Before — sticker</button>
+  <button id="btn-pause">⏸ pause</button>
+  <button id="btn-debug">debug</button>
+  <button data-speed="0.5">0.5×</button>
+  <button data-speed="1" class="on speed">1×</button>
+  <button data-speed="2">2×</button>
+</div>
+
+<script>
+  const stage = document.getElementById("stage");
+  const params = new URLSearchParams(location.search);
+  if (params.get("debug") === "1") stage.classList.add("debug");
+  if (params.get("zoom")) {
+    stage.style.width = "1400px";
+    stage.style.aspectRatio = "1400 / 900";
+    stage.style.backgroundPosition = "center 20%";
+    const drift = stage.querySelector(".whale-drift");
+    drift.style.width = "78%";
+    drift.style.left = "11%";
+    drift.style.top = "6%";
+  }
+  if (params.get("mode") === "before") stage.classList.add("mode-before");
+  if (params.get("paused") === "1") stage.classList.add("paused");
+
+  document.getElementById("btn-after").onclick = (e) => {
+    stage.classList.remove("mode-before");
+    document.getElementById("btn-before").classList.remove("on");
+    e.target.classList.add("on");
+  };
+  document.getElementById("btn-before").onclick = (e) => {
+    stage.classList.add("mode-before");
+    document.getElementById("btn-after").classList.remove("on");
+    e.target.classList.add("on");
+  };
+  document.getElementById("btn-pause").onclick = (e) => {
+    stage.classList.toggle("paused");
+    e.target.classList.toggle("on");
+  };
+  document.getElementById("btn-debug").onclick = (e) => {
+    stage.classList.toggle("debug");
+    e.target.classList.toggle("on");
+  };
+  document.querySelectorAll("[data-speed]").forEach((btn) => {
+    btn.onclick = () => {
+      const s = Number(btn.dataset.speed);
+      document.documentElement.style.setProperty("--cycle", `${7 / s}s`);
+      document.documentElement.style.setProperty("--fin-cycle", `${8.4 / s}s`);
+      document.documentElement.style.setProperty("--buoy-cycle", `${12 / s}s`);
+      document.documentElement.style.setProperty("--pitch-cycle", `${15 / s}s`);
+      document.querySelectorAll("[data-speed]").forEach((b) => b.classList.remove("on"));
+      btn.classList.add("on");
+    };
+  });
+</script>
+</body>
+</html>

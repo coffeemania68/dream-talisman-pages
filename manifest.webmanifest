@@ -1,0 +1,14 @@
+{
+  "name": "꿈부적 — 꿈해몽하고 나만의 부적 받기",
+  "short_name": "꿈부적",
+  "description": "꿈을 들려주면 의미를 해석하고, 오늘의 색과 소장하고 싶은 꿈부적을 만들어 드려요.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f0e6",
+  "theme_color": "#f6f0e6",
+  "icons": [
+    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
