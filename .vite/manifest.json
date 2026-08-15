@@ -23,11 +23,12 @@
       "_createLucideIcon-DDARWCLE.js"
     ]
   },
-  "_calculator-lookup-C7jsequu.js": {
-    "file": "assets/calculator-lookup-C7jsequu.js",
+  "_calculator-lookup-CRxdl4gU.js": {
+    "file": "assets/calculator-lookup-CRxdl4gU.js",
     "name": "calculator-lookup",
     "imports": [
-      "virtual:vinext-app-browser-entry"
+      "virtual:vinext-app-browser-entry",
+      "app/components/UiLang.tsx"
     ],
     "dynamicImports": [
       "app/data/calculator/cards/airport.json",
@@ -210,7 +211,7 @@
     ]
   },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-BpYU1vN1.js",
+    "file": "assets/AnimatedOpening-Bm5GcstN.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -226,7 +227,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-Clkk-OxU.js",
+    "file": "assets/BottomNav-D97msqZ3.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -240,13 +241,13 @@
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-Dj1EV_GK.js",
+    "file": "assets/DreamJourney-CTMoCl7J.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_calculator-lookup-C7jsequu.js",
+      "_calculator-lookup-CRxdl4gU.js",
       "virtual:vinext-app-browser-entry",
       "_AdSlot-Lx0INwcG.js",
       "app/components/UiLang.tsx",
@@ -261,7 +262,7 @@
     ]
   },
   "app/components/HeaderActions.tsx": {
-    "file": "assets/HeaderActions-Dl_t7Tqa.js",
+    "file": "assets/HeaderActions-DI1Eohd5.js",
     "name": "HeaderActions",
     "src": "app/components/HeaderActions.tsx",
     "isDynamicEntry": true,
@@ -275,7 +276,7 @@
     ]
   },
   "app/components/HomeLead.tsx": {
-    "file": "assets/HomeLead-BSi6BfBy.js",
+    "file": "assets/HomeLead-plSU-ZFx.js",
     "name": "HomeLead",
     "src": "app/components/HomeLead.tsx",
     "isDynamicEntry": true,
@@ -334,7 +335,7 @@
     ]
   },
   "app/components/UiLang.tsx": {
-    "file": "assets/UiLang-Bh4fECEP.js",
+    "file": "assets/UiLang-BTDKL9U7.js",
     "name": "UiLang",
     "src": "app/components/UiLang.tsx",
     "isDynamicEntry": true,
@@ -344,7 +345,7 @@
     ]
   },
   "app/components/VaultScreen.tsx": {
-    "file": "assets/VaultScreen-DEI7vaGU.js",
+    "file": "assets/VaultScreen-DkuD2jqG.js",
     "name": "VaultScreen",
     "src": "app/components/VaultScreen.tsx",
     "isDynamicEntry": true,
@@ -1004,12 +1005,12 @@
     "isDynamicEntry": true
   },
   "app/lib/calculator-compose.ts": {
-    "file": "assets/calculator-compose-Dt0GSshZ.js",
+    "file": "assets/calculator-compose-DB8r81sh.js",
     "name": "calculator-compose",
     "src": "app/lib/calculator-compose.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_calculator-lookup-C7jsequu.js",
+      "_calculator-lookup-CRxdl4gU.js",
       "virtual:vinext-app-browser-entry",
       "_AdSlot-Lx0INwcG.js",
       "app/components/UiLang.tsx",
@@ -1020,7 +1021,7 @@
     ]
   },
   "app/lib/client-dream-runtime.ts": {
-    "file": "assets/client-dream-runtime-CJiCxmE5.js",
+    "file": "assets/client-dream-runtime-Cet4l3p3.js",
     "name": "client-dream-runtime",
     "src": "app/lib/client-dream-runtime.ts",
     "isDynamicEntry": true,
@@ -1039,7 +1040,7 @@
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-lAt8TQSr.js",
+    "file": "assets/layout-segment-context-DFrvTBHz.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -1050,7 +1051,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DuZ0Pfzv.js",
+    "file": "assets/index-CV4Z79CB.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
