@@ -1,0 +1,89 @@
+name: Publish rescheduled Dream Blog posts
+
+on:
+  schedule:
+    - cron: "1,6,11,16,21,26,31,36,41,46,51,56 21 * * *"
+    - cron: "1,6,11,16 22 * * *"
+    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 23 * * *"
+    - cron: "3,8,13,18 0 * * *"
+    - cron: "7,12,17,22,27,32,37,42,47,52,57 3 * * *"
+    - cron: "2,7,12,17,22 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dream-blog-scheduled-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish-due-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Load rebuilt schedule payload
+        shell: bash
+        run: |
+          git fetch origin scheduled-blog-202608-rescheduled
+          mkdir -p "$RUNNER_TEMP/dream-blog-rescheduled"
+          git archive origin/scheduled-blog-202608-rescheduled | tar -x -C "$RUNNER_TEMP/dream-blog-rescheduled"
+
+      - name: Promote every package now due
+        id: promote
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import shutil
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          root = Path.cwd()
+          payload = Path(os.environ["RUNNER_TEMP"]) / "dream-blog-rescheduled"
+          manifest = json.loads((payload / "manifest.json").read_text(encoding="utf-8"))
+          state_path = root / ".scheduled-blog-state-rescheduled.json"
+          state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"applied": []}
+          applied = set(state.get("applied", []))
+          now = datetime.now(timezone.utc)
+          due = [
+              entry
+              for entry in manifest
+              if entry["id"] not in applied
+              and datetime.fromisoformat(entry["scheduled_at"].replace("Z", "+00:00")) <= now
+          ]
+
+          for entry in due:
+              source = payload / "packages" / entry["package"] / "site"
+              shutil.copytree(source, root, dirs_exist_ok=True)
+              applied.add(entry["id"])
+              print(f'promoted {entry["id"]} {entry["slug"]} ({entry["scheduled_kst"]})')
+
+          ordered = [entry["id"] for entry in manifest if entry["id"] in applied]
+          if due:
+              state_path.write_text(json.dumps({"applied": ordered}, indent=2) + "\n", encoding="utf-8")
+
+          complete = len(ordered) == len(manifest)
+          if complete:
+              (root / ".github" / "workflows" / "publish-scheduled-blog-rescheduled.yml").unlink(missing_ok=True)
+
+          output = Path(os.environ["GITHUB_OUTPUT"])
+          with output.open("a", encoding="utf-8") as handle:
+              handle.write(f"changed={'true' if due or complete else 'false'}\n")
+              handle.write(f"count={len(due)}\n")
+              handle.write(f"complete={'true' if complete else 'false'}\n")
+          PY
+
+      - name: Commit and publish
+        if: steps.promote.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "Dream Blog Scheduler"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish due rescheduled Dream Blog post(s)"
+          git push origin HEAD:main
