@@ -1,6 +1,6 @@
 {
-  "_AdSlot-PL4NNAe1.js": {
-    "file": "assets/AdSlot-PL4NNAe1.js",
+  "_AdSlot-Lx0INwcG.js": {
+    "file": "assets/AdSlot-Lx0INwcG.js",
     "name": "AdSlot",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -21,6 +21,121 @@
     "name": "bell",
     "imports": [
       "_createLucideIcon-DDARWCLE.js"
+    ]
+  },
+  "_calculator-lookup-CyJxv4A_.js": {
+    "file": "assets/calculator-lookup-CyJxv4A_.js",
+    "name": "calculator-lookup",
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ],
+    "dynamicImports": [
+      "app/data/calculator/cards/airport.json",
+      "app/data/calculator/cards/baby.json",
+      "app/data/calculator/cards/bird.json",
+      "app/data/calculator/cards/blanket_dream.json",
+      "app/data/calculator/cards/blood.json",
+      "app/data/calculator/cards/boat.json",
+      "app/data/calculator/cards/building.json",
+      "app/data/calculator/cards/butterfly.json",
+      "app/data/calculator/cards/car.json",
+      "app/data/calculator/cards/cat.json",
+      "app/data/calculator/cards/chase.json",
+      "app/data/calculator/cards/chicken.json",
+      "app/data/calculator/cards/climbing.json",
+      "app/data/calculator/cards/clothes.json",
+      "app/data/calculator/cards/cloud.json",
+      "app/data/calculator/cards/companion.json",
+      "app/data/calculator/cards/conflict.json",
+      "app/data/calculator/cards/cow.json",
+      "app/data/calculator/cards/crying.json",
+      "app/data/calculator/cards/death.json",
+      "app/data/calculator/cards/deceased.json",
+      "app/data/calculator/cards/deity.json",
+      "app/data/calculator/cards/divine_dream.json",
+      "app/data/calculator/cards/dog.json",
+      "app/data/calculator/cards/door.json",
+      "app/data/calculator/cards/dragon.json",
+      "app/data/calculator/cards/eating.json",
+      "app/data/calculator/cards/exam.json",
+      "app/data/calculator/cards/exposure.json",
+      "app/data/calculator/cards/falling.json",
+      "app/data/calculator/cards/family.json",
+      "app/data/calculator/cards/feast.json",
+      "app/data/calculator/cards/feces.json",
+      "app/data/calculator/cards/fight.json",
+      "app/data/calculator/cards/fire.json",
+      "app/data/calculator/cards/fish.json",
+      "app/data/calculator/cards/flag_banner.json",
+      "app/data/calculator/cards/flower.json",
+      "app/data/calculator/cards/flying.json",
+      "app/data/calculator/cards/fruit.json",
+      "app/data/calculator/cards/ghost.json",
+      "app/data/calculator/cards/gold_dream.json",
+      "app/data/calculator/cards/grave.json",
+      "app/data/calculator/cards/haircut.json",
+      "app/data/calculator/cards/horse.json",
+      "app/data/calculator/cards/hospital.json",
+      "app/data/calculator/cards/house.json",
+      "app/data/calculator/cards/illness_dream.json",
+      "app/data/calculator/cards/insect.json",
+      "app/data/calculator/cards/journey.json",
+      "app/data/calculator/cards/key.json",
+      "app/data/calculator/cards/kitchen.json",
+      "app/data/calculator/cards/knife.json",
+      "app/data/calculator/cards/lost-item.json",
+      "app/data/calculator/cards/maze.json",
+      "app/data/calculator/cards/meal.json",
+      "app/data/calculator/cards/military.json",
+      "app/data/calculator/cards/mirror.json",
+      "app/data/calculator/cards/money.json",
+      "app/data/calculator/cards/monkey.json",
+      "app/data/calculator/cards/moon.json",
+      "app/data/calculator/cards/mountain.json",
+      "app/data/calculator/cards/mouth.json",
+      "app/data/calculator/cards/music.json",
+      "app/data/calculator/cards/official.json",
+      "app/data/calculator/cards/parting.json",
+      "app/data/calculator/cards/passage.json",
+      "app/data/calculator/cards/pig.json",
+      "app/data/calculator/cards/pregnancy.json",
+      "app/data/calculator/cards/promotion.json",
+      "app/data/calculator/cards/prophetic_dream.json",
+      "app/data/calculator/cards/quake.json",
+      "app/data/calculator/cards/rabbit.json",
+      "app/data/calculator/cards/rain.json",
+      "app/data/calculator/cards/rat.json",
+      "app/data/calculator/cards/recurring.json",
+      "app/data/calculator/cards/ring.json",
+      "app/data/calculator/cards/rock.json",
+      "app/data/calculator/cards/romance.json",
+      "app/data/calculator/cards/school.json",
+      "app/data/calculator/cards/sea.json",
+      "app/data/calculator/cards/sheep.json",
+      "app/data/calculator/cards/shoes.json",
+      "app/data/calculator/cards/sick_dream.json",
+      "app/data/calculator/cards/sky.json",
+      "app/data/calculator/cards/snake.json",
+      "app/data/calculator/cards/snow.json",
+      "app/data/calculator/cards/star.json",
+      "app/data/calculator/cards/stranger.json",
+      "app/data/calculator/cards/sun.json",
+      "app/data/calculator/cards/sunrise.json",
+      "app/data/calculator/cards/sword.json",
+      "app/data/calculator/cards/tiger.json",
+      "app/data/calculator/cards/toilet.json",
+      "app/data/calculator/cards/tooth.json",
+      "app/data/calculator/cards/treasure.json",
+      "app/data/calculator/cards/tree.json",
+      "app/data/calculator/cards/turtle.json",
+      "app/data/calculator/cards/typhoon.json",
+      "app/data/calculator/cards/vessel.json",
+      "app/data/calculator/cards/voiceless.json",
+      "app/data/calculator/cards/water.json",
+      "app/data/calculator/cards/wedding.json",
+      "app/data/calculator/cards/well.json",
+      "app/data/calculator/cards/wind.json",
+      "app/data/calculator/cards/wolf.json"
     ]
   },
   "_chevron-right-CcVyTnMz.js": {
@@ -60,8 +175,15 @@
       "_createLucideIcon-DDARWCLE.js"
     ]
   },
-  "_reviews-CJZ06rjx.js": {
-    "file": "assets/reviews-CJZ06rjx.js",
+  "_result-composer-CZeI8ciS.js": {
+    "file": "assets/result-composer-CZeI8ciS.js",
+    "name": "result-composer",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_reviews-VijvcZA7.js": {
+    "file": "assets/reviews-VijvcZA7.js",
     "name": "reviews",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -79,8 +201,16 @@
       "_createLucideIcon-DDARWCLE.js"
     ]
   },
+  "_talisman-card-DBSkhnqT.js": {
+    "file": "assets/talisman-card-DBSkhnqT.js",
+    "name": "talisman-card",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_AdSlot-Lx0INwcG.js"
+    ]
+  },
   "app/components/AnimatedOpening.tsx": {
-    "file": "assets/AnimatedOpening-BNxSC5t1.js",
+    "file": "assets/AnimatedOpening-h6nh_jjU.js",
     "name": "AnimatedOpening",
     "src": "app/components/AnimatedOpening.tsx",
     "isDynamicEntry": true,
@@ -96,7 +226,7 @@
     ]
   },
   "app/components/BottomNav.tsx": {
-    "file": "assets/BottomNav-BPWNp5AS.js",
+    "file": "assets/BottomNav-3L4iFMDR.js",
     "name": "BottomNav",
     "src": "app/components/BottomNav.tsx",
     "isDynamicEntry": true,
@@ -110,24 +240,27 @@
     ]
   },
   "app/components/DreamJourney.tsx": {
-    "file": "assets/DreamJourney-C0kl96Wh.js",
+    "file": "assets/DreamJourney-sqMa07pS.js",
     "name": "DreamJourney",
     "src": "app/components/DreamJourney.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "_calculator-lookup-CyJxv4A_.js",
       "virtual:vinext-app-browser-entry",
-      "_AdSlot-PL4NNAe1.js",
+      "_AdSlot-Lx0INwcG.js",
+      "_talisman-card-DBSkhnqT.js",
       "_createLucideIcon-DDARWCLE.js",
       "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
-      "app/lib/client-dream-runtime.ts"
+      "app/lib/client-dream-runtime.ts",
+      "app/lib/calculator-compose.ts"
     ]
   },
   "app/components/HeaderActions.tsx": {
-    "file": "assets/HeaderActions-BxlvP90_.js",
+    "file": "assets/HeaderActions-sDdxpdpd.js",
     "name": "HeaderActions",
     "src": "app/components/HeaderActions.tsx",
     "isDynamicEntry": true,
@@ -140,7 +273,7 @@
     ]
   },
   "app/components/MembershipCta.tsx": {
-    "file": "assets/MembershipCta-CzdqDfgC.js",
+    "file": "assets/MembershipCta-D_-wcaqe.js",
     "name": "MembershipCta",
     "src": "app/components/MembershipCta.tsx",
     "isDynamicEntry": true,
@@ -150,36 +283,36 @@
     ]
   },
   "app/components/ReviewScreen.tsx": {
-    "file": "assets/ReviewScreen-DcTRvkSM.js",
+    "file": "assets/ReviewScreen-B2YuG9Ap.js",
     "name": "ReviewScreen",
     "src": "app/components/ReviewScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_reviews-CJZ06rjx.js",
+      "_reviews-VijvcZA7.js",
       "_library-big-Bwwkgdba.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/ReviewsSection.tsx": {
-    "file": "assets/ReviewsSection-Cz5tbMb8.js",
+    "file": "assets/ReviewsSection-Beu90kVm.js",
     "name": "ReviewsSection",
     "src": "app/components/ReviewsSection.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_reviews-CJZ06rjx.js",
+      "_reviews-VijvcZA7.js",
       "_chevron-right-CcVyTnMz.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "app/components/SettingsScreen.tsx": {
-    "file": "assets/SettingsScreen-DGDEhhnd.js",
+    "file": "assets/SettingsScreen-CG-7_-gM.js",
     "name": "SettingsScreen",
     "src": "app/components/SettingsScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_reviews-CJZ06rjx.js",
+      "_reviews-VijvcZA7.js",
       "_createLucideIcon-DDARWCLE.js",
       "_bell-s0Dn-oYS.js",
       "_chevron-right-CcVyTnMz.js",
@@ -188,44 +321,701 @@
     ]
   },
   "app/components/VaultScreen.tsx": {
-    "file": "assets/VaultScreen-OwIpRkJ5.js",
+    "file": "assets/VaultScreen-BNBEMGQE.js",
     "name": "VaultScreen",
     "src": "app/components/VaultScreen.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_AdSlot-PL4NNAe1.js",
+      "virtual:vinext-app-browser-entry",
+      "_AdSlot-Lx0INwcG.js",
       "_createLucideIcon-DDARWCLE.js",
       "_house-DvYkQgTo.js",
       "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "_talisman-card-DBSkhnqT.js",
+      "_AdSlot-Lx0INwcG.js"
     ]
   },
   "app/data/blog-entries.generated.ts": {
-    "file": "assets/blog-entries.generated-Cmc9OJ_a.js",
+    "file": "assets/blog-entries.generated-gC2hIdUl.js",
     "name": "blog-entries.generated",
     "src": "app/data/blog-entries.generated.ts",
     "isDynamicEntry": true
   },
+  "app/data/calculator/cards/airport.json": {
+    "file": "assets/airport-D_iiFjSC.js",
+    "name": "airport",
+    "src": "app/data/calculator/cards/airport.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/baby.json": {
+    "file": "assets/baby-BJfS4rV1.js",
+    "name": "baby",
+    "src": "app/data/calculator/cards/baby.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/bird.json": {
+    "file": "assets/bird-DqG6XC3B.js",
+    "name": "bird",
+    "src": "app/data/calculator/cards/bird.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/blanket_dream.json": {
+    "file": "assets/blanket_dream-8Ht68_2K.js",
+    "name": "blanket_dream",
+    "src": "app/data/calculator/cards/blanket_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/blood.json": {
+    "file": "assets/blood-BaiZ4Y_j.js",
+    "name": "blood",
+    "src": "app/data/calculator/cards/blood.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/boat.json": {
+    "file": "assets/boat-BAi8qEW4.js",
+    "name": "boat",
+    "src": "app/data/calculator/cards/boat.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/building.json": {
+    "file": "assets/building-C9hjsZyC.js",
+    "name": "building",
+    "src": "app/data/calculator/cards/building.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/butterfly.json": {
+    "file": "assets/butterfly-D3VBSUKI.js",
+    "name": "butterfly",
+    "src": "app/data/calculator/cards/butterfly.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/car.json": {
+    "file": "assets/car-vj8Ock6t.js",
+    "name": "car",
+    "src": "app/data/calculator/cards/car.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/cat.json": {
+    "file": "assets/cat-SxBNhBQA.js",
+    "name": "cat",
+    "src": "app/data/calculator/cards/cat.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/chase.json": {
+    "file": "assets/chase-BlYq-67u.js",
+    "name": "chase",
+    "src": "app/data/calculator/cards/chase.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/chicken.json": {
+    "file": "assets/chicken-DB6qTyBY.js",
+    "name": "chicken",
+    "src": "app/data/calculator/cards/chicken.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/climbing.json": {
+    "file": "assets/climbing-IKs0w91P.js",
+    "name": "climbing",
+    "src": "app/data/calculator/cards/climbing.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/clothes.json": {
+    "file": "assets/clothes-BGZmNGjx.js",
+    "name": "clothes",
+    "src": "app/data/calculator/cards/clothes.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/cloud.json": {
+    "file": "assets/cloud-CbgFk_EY.js",
+    "name": "cloud",
+    "src": "app/data/calculator/cards/cloud.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/companion.json": {
+    "file": "assets/companion-AhPrdmcZ.js",
+    "name": "companion",
+    "src": "app/data/calculator/cards/companion.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/conflict.json": {
+    "file": "assets/conflict-DGj1Hlgp.js",
+    "name": "conflict",
+    "src": "app/data/calculator/cards/conflict.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/cow.json": {
+    "file": "assets/cow-JkccOR4l.js",
+    "name": "cow",
+    "src": "app/data/calculator/cards/cow.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/crying.json": {
+    "file": "assets/crying-2_NmozHm.js",
+    "name": "crying",
+    "src": "app/data/calculator/cards/crying.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/death.json": {
+    "file": "assets/death-lZrYtFqB.js",
+    "name": "death",
+    "src": "app/data/calculator/cards/death.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/deceased.json": {
+    "file": "assets/deceased-RSR4NjVu.js",
+    "name": "deceased",
+    "src": "app/data/calculator/cards/deceased.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/deity.json": {
+    "file": "assets/deity-Dud95OeY.js",
+    "name": "deity",
+    "src": "app/data/calculator/cards/deity.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/divine_dream.json": {
+    "file": "assets/divine_dream-DuI_UHls.js",
+    "name": "divine_dream",
+    "src": "app/data/calculator/cards/divine_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/dog.json": {
+    "file": "assets/dog-BbrGOWwT.js",
+    "name": "dog",
+    "src": "app/data/calculator/cards/dog.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/door.json": {
+    "file": "assets/door-Dnhesk3w.js",
+    "name": "door",
+    "src": "app/data/calculator/cards/door.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/dragon.json": {
+    "file": "assets/dragon-CToFNTm-.js",
+    "name": "dragon",
+    "src": "app/data/calculator/cards/dragon.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/eating.json": {
+    "file": "assets/eating-BGQAyi8H.js",
+    "name": "eating",
+    "src": "app/data/calculator/cards/eating.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/exam.json": {
+    "file": "assets/exam-D0S8n5Hv.js",
+    "name": "exam",
+    "src": "app/data/calculator/cards/exam.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/exposure.json": {
+    "file": "assets/exposure-BBqLeI5w.js",
+    "name": "exposure",
+    "src": "app/data/calculator/cards/exposure.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/falling.json": {
+    "file": "assets/falling-D7JGhOiS.js",
+    "name": "falling",
+    "src": "app/data/calculator/cards/falling.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/family.json": {
+    "file": "assets/family-P8aL3uKE.js",
+    "name": "family",
+    "src": "app/data/calculator/cards/family.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/feast.json": {
+    "file": "assets/feast-COFsy6yH.js",
+    "name": "feast",
+    "src": "app/data/calculator/cards/feast.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/feces.json": {
+    "file": "assets/feces-iODCGa_a.js",
+    "name": "feces",
+    "src": "app/data/calculator/cards/feces.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/fight.json": {
+    "file": "assets/fight-BFyAOnEp.js",
+    "name": "fight",
+    "src": "app/data/calculator/cards/fight.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/fire.json": {
+    "file": "assets/fire-Cm6mSdBa.js",
+    "name": "fire",
+    "src": "app/data/calculator/cards/fire.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/fish.json": {
+    "file": "assets/fish-eXCHrcfs.js",
+    "name": "fish",
+    "src": "app/data/calculator/cards/fish.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/flag_banner.json": {
+    "file": "assets/flag_banner-DcLk6M3x.js",
+    "name": "flag_banner",
+    "src": "app/data/calculator/cards/flag_banner.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/flower.json": {
+    "file": "assets/flower--XkUjt6I.js",
+    "name": "flower",
+    "src": "app/data/calculator/cards/flower.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/flying.json": {
+    "file": "assets/flying-IcunRAZW.js",
+    "name": "flying",
+    "src": "app/data/calculator/cards/flying.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/fruit.json": {
+    "file": "assets/fruit-Dmr1JRdG.js",
+    "name": "fruit",
+    "src": "app/data/calculator/cards/fruit.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/ghost.json": {
+    "file": "assets/ghost-B2LLR_4I.js",
+    "name": "ghost",
+    "src": "app/data/calculator/cards/ghost.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/gold_dream.json": {
+    "file": "assets/gold_dream-DuqSO9Yx.js",
+    "name": "gold_dream",
+    "src": "app/data/calculator/cards/gold_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/grave.json": {
+    "file": "assets/grave-Djs2Mmix.js",
+    "name": "grave",
+    "src": "app/data/calculator/cards/grave.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/haircut.json": {
+    "file": "assets/haircut-5nTEEFxd.js",
+    "name": "haircut",
+    "src": "app/data/calculator/cards/haircut.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/horse.json": {
+    "file": "assets/horse-BmMOAI4I.js",
+    "name": "horse",
+    "src": "app/data/calculator/cards/horse.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/hospital.json": {
+    "file": "assets/hospital-eYvJW0Xe.js",
+    "name": "hospital",
+    "src": "app/data/calculator/cards/hospital.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/house.json": {
+    "file": "assets/house-9LHlfgeo.js",
+    "name": "house",
+    "src": "app/data/calculator/cards/house.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/illness_dream.json": {
+    "file": "assets/illness_dream-RFQWZlLv.js",
+    "name": "illness_dream",
+    "src": "app/data/calculator/cards/illness_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/insect.json": {
+    "file": "assets/insect-CnPmla5l.js",
+    "name": "insect",
+    "src": "app/data/calculator/cards/insect.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/journey.json": {
+    "file": "assets/journey-CK0gCyU9.js",
+    "name": "journey",
+    "src": "app/data/calculator/cards/journey.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/key.json": {
+    "file": "assets/key-htce-xwC.js",
+    "name": "key",
+    "src": "app/data/calculator/cards/key.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/kitchen.json": {
+    "file": "assets/kitchen-TUi19IOi.js",
+    "name": "kitchen",
+    "src": "app/data/calculator/cards/kitchen.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/knife.json": {
+    "file": "assets/knife-C6alfUXE.js",
+    "name": "knife",
+    "src": "app/data/calculator/cards/knife.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/lost-item.json": {
+    "file": "assets/lost-item-Ba-Gx5oT.js",
+    "name": "lost-item",
+    "src": "app/data/calculator/cards/lost-item.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/maze.json": {
+    "file": "assets/maze-ChyszI2u.js",
+    "name": "maze",
+    "src": "app/data/calculator/cards/maze.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/meal.json": {
+    "file": "assets/meal-GK-0tsfV.js",
+    "name": "meal",
+    "src": "app/data/calculator/cards/meal.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/military.json": {
+    "file": "assets/military-D-P0elLW.js",
+    "name": "military",
+    "src": "app/data/calculator/cards/military.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/mirror.json": {
+    "file": "assets/mirror-Bww3FhY_.js",
+    "name": "mirror",
+    "src": "app/data/calculator/cards/mirror.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/money.json": {
+    "file": "assets/money-Drps-yDQ.js",
+    "name": "money",
+    "src": "app/data/calculator/cards/money.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/monkey.json": {
+    "file": "assets/monkey-yxmNCLc8.js",
+    "name": "monkey",
+    "src": "app/data/calculator/cards/monkey.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/moon.json": {
+    "file": "assets/moon-bgex-Xx5.js",
+    "name": "moon",
+    "src": "app/data/calculator/cards/moon.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/mountain.json": {
+    "file": "assets/mountain-DYPFl4C8.js",
+    "name": "mountain",
+    "src": "app/data/calculator/cards/mountain.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/mouth.json": {
+    "file": "assets/mouth-7o3FxyKN.js",
+    "name": "mouth",
+    "src": "app/data/calculator/cards/mouth.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/music.json": {
+    "file": "assets/music-D-uMNiuO.js",
+    "name": "music",
+    "src": "app/data/calculator/cards/music.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/official.json": {
+    "file": "assets/official-C_9cRDHK.js",
+    "name": "official",
+    "src": "app/data/calculator/cards/official.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/parting.json": {
+    "file": "assets/parting-BL99nQG5.js",
+    "name": "parting",
+    "src": "app/data/calculator/cards/parting.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/passage.json": {
+    "file": "assets/passage-PZgxM77T.js",
+    "name": "passage",
+    "src": "app/data/calculator/cards/passage.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/pig.json": {
+    "file": "assets/pig-Adk3U9OJ.js",
+    "name": "pig",
+    "src": "app/data/calculator/cards/pig.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/pregnancy.json": {
+    "file": "assets/pregnancy-DVDLv88s.js",
+    "name": "pregnancy",
+    "src": "app/data/calculator/cards/pregnancy.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/promotion.json": {
+    "file": "assets/promotion-1Nh5OyDK.js",
+    "name": "promotion",
+    "src": "app/data/calculator/cards/promotion.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/prophetic_dream.json": {
+    "file": "assets/prophetic_dream-yX5k7SUo.js",
+    "name": "prophetic_dream",
+    "src": "app/data/calculator/cards/prophetic_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/quake.json": {
+    "file": "assets/quake-CtBaGyve.js",
+    "name": "quake",
+    "src": "app/data/calculator/cards/quake.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/rabbit.json": {
+    "file": "assets/rabbit-LZQIxNQN.js",
+    "name": "rabbit",
+    "src": "app/data/calculator/cards/rabbit.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/rain.json": {
+    "file": "assets/rain-D332t1yG.js",
+    "name": "rain",
+    "src": "app/data/calculator/cards/rain.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/rat.json": {
+    "file": "assets/rat-U2FpQfLG.js",
+    "name": "rat",
+    "src": "app/data/calculator/cards/rat.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/recurring.json": {
+    "file": "assets/recurring-DsL6a9HZ.js",
+    "name": "recurring",
+    "src": "app/data/calculator/cards/recurring.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/ring.json": {
+    "file": "assets/ring-CNai1xtI.js",
+    "name": "ring",
+    "src": "app/data/calculator/cards/ring.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/rock.json": {
+    "file": "assets/rock-qKMZ-TwX.js",
+    "name": "rock",
+    "src": "app/data/calculator/cards/rock.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/romance.json": {
+    "file": "assets/romance-xo5sbWK1.js",
+    "name": "romance",
+    "src": "app/data/calculator/cards/romance.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/school.json": {
+    "file": "assets/school-DNwavPzY.js",
+    "name": "school",
+    "src": "app/data/calculator/cards/school.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sea.json": {
+    "file": "assets/sea-eEwNMYsR.js",
+    "name": "sea",
+    "src": "app/data/calculator/cards/sea.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sheep.json": {
+    "file": "assets/sheep-CJdQ8H2a.js",
+    "name": "sheep",
+    "src": "app/data/calculator/cards/sheep.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/shoes.json": {
+    "file": "assets/shoes-BhxqQsPb.js",
+    "name": "shoes",
+    "src": "app/data/calculator/cards/shoes.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sick_dream.json": {
+    "file": "assets/sick_dream-BXslOzSX.js",
+    "name": "sick_dream",
+    "src": "app/data/calculator/cards/sick_dream.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sky.json": {
+    "file": "assets/sky-CKbw5MjG.js",
+    "name": "sky",
+    "src": "app/data/calculator/cards/sky.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/snake.json": {
+    "file": "assets/snake-Dib_D5s4.js",
+    "name": "snake",
+    "src": "app/data/calculator/cards/snake.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/snow.json": {
+    "file": "assets/snow-CZiAkj8I.js",
+    "name": "snow",
+    "src": "app/data/calculator/cards/snow.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/star.json": {
+    "file": "assets/star-5liEE_qH.js",
+    "name": "star",
+    "src": "app/data/calculator/cards/star.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/stranger.json": {
+    "file": "assets/stranger-BqNAQ7HX.js",
+    "name": "stranger",
+    "src": "app/data/calculator/cards/stranger.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sun.json": {
+    "file": "assets/sun-D8zIE8j4.js",
+    "name": "sun",
+    "src": "app/data/calculator/cards/sun.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sunrise.json": {
+    "file": "assets/sunrise-BGTwiTE9.js",
+    "name": "sunrise",
+    "src": "app/data/calculator/cards/sunrise.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/sword.json": {
+    "file": "assets/sword-CT5m7ub_.js",
+    "name": "sword",
+    "src": "app/data/calculator/cards/sword.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/tiger.json": {
+    "file": "assets/tiger-DUIdn0ck.js",
+    "name": "tiger",
+    "src": "app/data/calculator/cards/tiger.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/toilet.json": {
+    "file": "assets/toilet-ZlExDjHH.js",
+    "name": "toilet",
+    "src": "app/data/calculator/cards/toilet.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/tooth.json": {
+    "file": "assets/tooth-DeB6EgDg.js",
+    "name": "tooth",
+    "src": "app/data/calculator/cards/tooth.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/treasure.json": {
+    "file": "assets/treasure-BbX7MfOT.js",
+    "name": "treasure",
+    "src": "app/data/calculator/cards/treasure.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/tree.json": {
+    "file": "assets/tree-DOxPFwVu.js",
+    "name": "tree",
+    "src": "app/data/calculator/cards/tree.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/turtle.json": {
+    "file": "assets/turtle-CxjMPjle.js",
+    "name": "turtle",
+    "src": "app/data/calculator/cards/turtle.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/typhoon.json": {
+    "file": "assets/typhoon-CFvgc9vy.js",
+    "name": "typhoon",
+    "src": "app/data/calculator/cards/typhoon.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/vessel.json": {
+    "file": "assets/vessel-wq7A5EIg.js",
+    "name": "vessel",
+    "src": "app/data/calculator/cards/vessel.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/voiceless.json": {
+    "file": "assets/voiceless-C2nCVQNS.js",
+    "name": "voiceless",
+    "src": "app/data/calculator/cards/voiceless.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/water.json": {
+    "file": "assets/water-XVjswott.js",
+    "name": "water",
+    "src": "app/data/calculator/cards/water.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/wedding.json": {
+    "file": "assets/wedding-DZNUnipm.js",
+    "name": "wedding",
+    "src": "app/data/calculator/cards/wedding.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/well.json": {
+    "file": "assets/well-B0E8a4XD.js",
+    "name": "well",
+    "src": "app/data/calculator/cards/well.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/wind.json": {
+    "file": "assets/wind-BqUybydB.js",
+    "name": "wind",
+    "src": "app/data/calculator/cards/wind.json",
+    "isDynamicEntry": true
+  },
+  "app/data/calculator/cards/wolf.json": {
+    "file": "assets/wolf-DzMV93Fa.js",
+    "name": "wolf",
+    "src": "app/data/calculator/cards/wolf.json",
+    "isDynamicEntry": true
+  },
+  "app/lib/calculator-compose.ts": {
+    "file": "assets/calculator-compose-C-om-Dkc.js",
+    "name": "calculator-compose",
+    "src": "app/lib/calculator-compose.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_calculator-lookup-CyJxv4A_.js",
+      "virtual:vinext-app-browser-entry",
+      "_AdSlot-Lx0INwcG.js",
+      "_result-composer-CZeI8ciS.js"
+    ],
+    "dynamicImports": [
+      "_result-composer-CZeI8ciS.js"
+    ]
+  },
   "app/lib/client-dream-runtime.ts": {
-    "file": "assets/client-dream-runtime-CES3bE-t.js",
+    "file": "assets/client-dream-runtime-S9DQWaLg.js",
     "name": "client-dream-runtime",
     "src": "app/lib/client-dream-runtime.ts",
     "isDynamicEntry": true,
     "imports": [
-      "virtual:vinext-app-browser-entry"
+      "virtual:vinext-app-browser-entry",
+      "_result-composer-CZeI8ciS.js"
     ],
     "dynamicImports": [
       "app/data/blog-entries.generated.ts"
     ]
   },
   "node_modules/gsap/index.js": {
-    "file": "assets/gsap-DcvslngE.js",
+    "file": "assets/gsap-C_tBQ-p5.js",
     "name": "gsap",
     "src": "node_modules/gsap/index.js",
     "isDynamicEntry": true
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-CbqWK3HQ.js",
+    "file": "assets/layout-segment-context-BbaqXSBi.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -236,7 +1026,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-C6NfbSsx.js",
+    "file": "assets/index-B6412jbd.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
