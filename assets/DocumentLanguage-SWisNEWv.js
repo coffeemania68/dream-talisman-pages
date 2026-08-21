@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-S-ySWqyJ.js";import{i as t}from"./framework-CXnKph_e.js";var n=e(t(),1);function r(){return(0,n.useEffect)(()=>{document.documentElement.lang=`en`,document.documentElement.dir=`ltr`},[]),null}export{r as EnglishDocumentLanguage};
