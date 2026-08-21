@@ -358,5 +358,14 @@
     "scheduled_at": "2026-10-01T03:30:00Z",
     "scheduled_kst": "2026-10-01 12:30 KST",
     "requires": "korean-live"
+  },
+  {
+    "id": "en-040",
+    "slug": "fire-dream",
+    "title": "Fire Dream Meaning — House Fires, Putting Out Flames, and Escaping by Situation",
+    "package": "040-fire-dream",
+    "scheduled_at": "2026-08-31T00:30:00Z",
+    "scheduled_kst": "2026-08-31 09:30 KST",
+    "requires": "korean-live"
   }
 ]
