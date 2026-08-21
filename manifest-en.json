@@ -1,0 +1,362 @@
+[
+  {
+    "id": "en-000",
+    "slug": "tiger-dream",
+    "title": "Tiger Dream Meaning — Being Chased, Bitten, and Conception Dreams by Situation",
+    "package": "000-tiger-dream",
+    "scheduled_at": "2026-08-21T16:55:00Z",
+    "scheduled_kst": "2026-08-22 01:55 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-001",
+    "slug": "dragon-dream",
+    "title": "Dragon Dream Meaning — Ascending Dragons, Riding a Dragon, and Imugi by Situation",
+    "package": "001-dragon-dream",
+    "scheduled_at": "2026-08-22T03:30:00Z",
+    "scheduled_kst": "2026-08-22 12:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-002",
+    "slug": "dog-dream",
+    "title": "Dog Dream Meaning — Being Bitten, Barking Dogs, and Black Dogs by Situation",
+    "package": "002-dog-dream",
+    "scheduled_at": "2026-08-23T00:30:00Z",
+    "scheduled_kst": "2026-08-23 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-003",
+    "slug": "cat-dream",
+    "title": "Cat Dream Meaning — Cats That Approach, Scratches, and Black Cats by Situation",
+    "package": "003-cat-dream",
+    "scheduled_at": "2026-08-23T06:30:00Z",
+    "scheduled_kst": "2026-08-23 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-004",
+    "slug": "butterfly-dream",
+    "title": "Butterfly Dream Meaning — A Butterfly Landing, Catching a Butterfly, and Taemong",
+    "package": "004-butterfly-dream",
+    "scheduled_at": "2026-08-23T12:30:00Z",
+    "scheduled_kst": "2026-08-23 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-005",
+    "slug": "baby-dream",
+    "title": "Baby Dream Meaning — Holding a Baby, a Crying Baby, and Puppies or Kittens Too",
+    "package": "005-baby-dream",
+    "scheduled_at": "2026-08-24T00:30:00Z",
+    "scheduled_kst": "2026-08-24 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-006",
+    "slug": "bird-dream",
+    "title": "Bird Dream Meaning — Birds Flying In, Catching a Bird, and Dead Birds by Situation",
+    "package": "006-bird-dream",
+    "scheduled_at": "2026-08-24T06:30:00Z",
+    "scheduled_kst": "2026-08-24 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-007",
+    "slug": "cow-dream",
+    "title": "Cow Dream Meaning — Bulls, a Cow Entering the House, and Being Chased by Situation",
+    "package": "007-cow-dream",
+    "scheduled_at": "2026-08-24T12:30:00Z",
+    "scheduled_kst": "2026-08-24 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-008",
+    "slug": "chicken-dream",
+    "title": "Chicken Dream Meaning — Crowing, Laying Eggs, and Catching a Chicken by Scene",
+    "package": "008-chicken-dream",
+    "scheduled_at": "2026-08-25T00:30:00Z",
+    "scheduled_kst": "2026-08-25 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-009",
+    "slug": "sheep-dream",
+    "title": "Sheep Dream Meaning — Flocks, White Sheep, and the Lost Lamb",
+    "package": "009-sheep-dream",
+    "scheduled_at": "2026-08-25T06:30:00Z",
+    "scheduled_kst": "2026-08-25 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-010",
+    "slug": "ghost-dream",
+    "title": "Ghost Dream Meaning — A Scary Dream Is Not the Same as an Inauspicious One",
+    "package": "010-ghost-dream",
+    "scheduled_at": "2026-08-25T12:30:00Z",
+    "scheduled_kst": "2026-08-25 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-011",
+    "slug": "deceased-parent-dream",
+    "title": "Dreaming of a Deceased Parent — A Common Dream, and Rarely a Bad Sign",
+    "package": "011-deceased-parent-dream",
+    "scheduled_at": "2026-08-26T00:30:00Z",
+    "scheduled_kst": "2026-08-26 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-012",
+    "slug": "deceased-dream",
+    "title": "Dreaming of the Deceased — This Isn't a Frightening Dream",
+    "package": "012-deceased-dream",
+    "scheduled_at": "2026-08-26T06:30:00Z",
+    "scheduled_kst": "2026-08-26 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-013",
+    "slug": "death-dream",
+    "title": "Death Dream Meaning — Dying Yourself, a Family Member Dying, and Coming Back to Life",
+    "package": "013-death-dream",
+    "scheduled_at": "2026-08-26T12:30:00Z",
+    "scheduled_kst": "2026-08-26 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-014",
+    "slug": "funeral-dream",
+    "title": "Funeral Dream Meaning — Someone Else's Funeral, Your Own Funeral, and Wearing Mourning Clothes",
+    "package": "014-funeral-dream",
+    "scheduled_at": "2026-08-27T00:30:00Z",
+    "scheduled_kst": "2026-08-27 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-015",
+    "slug": "crush-dream",
+    "title": "Crush Dream Meaning — Confessing, Dating, and Being Rejected in Your Dreams",
+    "package": "015-crush-dream",
+    "scheduled_at": "2026-08-27T06:30:00Z",
+    "scheduled_kst": "2026-08-27 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-016",
+    "slug": "ex-lover-dream",
+    "title": "Ex-Lover Dream Meaning — Meeting Again, Talking, and Walking Past by Situation",
+    "package": "016-ex-lover-dream",
+    "scheduled_at": "2026-08-27T12:30:00Z",
+    "scheduled_kst": "2026-08-27 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-017",
+    "slug": "exam-dream",
+    "title": "Exam Dream Meaning — Blank Test Papers, Being Late, Lost Exam Rooms, and Interviews",
+    "package": "017-exam-dream",
+    "scheduled_at": "2026-08-28T00:30:00Z",
+    "scheduled_kst": "2026-08-28 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-018",
+    "slug": "chase-dream",
+    "title": "Chase Dream Meaning — What Matters Is Whether You Looked Back",
+    "package": "018-chase-dream",
+    "scheduled_at": "2026-08-28T06:30:00Z",
+    "scheduled_kst": "2026-08-28 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-019",
+    "slug": "falling-dream",
+    "title": "Falling Dream Meaning — Falling From Buildings, Cliffs, Trees, and Mountains",
+    "package": "019-falling-dream",
+    "scheduled_at": "2026-08-28T12:30:00Z",
+    "scheduled_kst": "2026-08-28 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-020",
+    "slug": "fight-dream",
+    "title": "Fight Dream Meaning — Winning, Losing, and Punches That Won't Land",
+    "package": "020-fight-dream",
+    "scheduled_at": "2026-08-29T00:30:00Z",
+    "scheduled_kst": "2026-08-29 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-021",
+    "slug": "driving-dream",
+    "title": "Driving Dream Meaning — Failed Brakes and Accidents by Situation",
+    "package": "021-driving-dream",
+    "scheduled_at": "2026-08-29T06:30:00Z",
+    "scheduled_kst": "2026-08-29 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-022",
+    "slug": "blood-dream",
+    "title": "Blood Dream Meaning — Nosebleeds, Someone Else's Blood, Bloodstains, and Washing Blood by Situation",
+    "package": "022-blood-dream",
+    "scheduled_at": "2026-08-29T12:30:00Z",
+    "scheduled_kst": "2026-08-29 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-023",
+    "slug": "feces-dream",
+    "title": "Feces Dream Meaning — The Record Says \"Great Windfall,\" Not \"Money\"",
+    "package": "023-feces-dream",
+    "scheduled_at": "2026-08-30T00:30:00Z",
+    "scheduled_kst": "2026-08-30 09:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-024",
+    "slug": "new-house-dream",
+    "title": "New House Dream Meaning — Buying, Building, and Moving Into a New Home, Scenario by Scenario",
+    "package": "024-new-house-dream",
+    "scheduled_at": "2026-08-30T06:30:00Z",
+    "scheduled_kst": "2026-08-30 15:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-025",
+    "slug": "typhoon-dream",
+    "title": "Typhoon Dream Meaning — Blown by the Wind, Rattling Windows, and the Calm After the Storm",
+    "package": "025-typhoon-dream",
+    "scheduled_at": "2026-08-30T12:30:00Z",
+    "scheduled_kst": "2026-08-30 21:30 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-026",
+    "slug": "family-dream",
+    "title": "Family Dream Meaning — Parents, Siblings, and Dreams of Family Fighting",
+    "package": "026-family-dream",
+    "scheduled_at": "2026-09-09T05:03:00Z",
+    "scheduled_kst": "2026-09-09 14:03 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-027",
+    "slug": "crying-dream",
+    "title": "Crying Dream Meaning — Crying Aloud, Someone Else Crying, and Waking Up in Tears",
+    "package": "027-crying-dream",
+    "scheduled_at": "2026-09-10T05:08:00Z",
+    "scheduled_kst": "2026-09-10 14:08 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-028",
+    "slug": "car-accident-dream",
+    "title": "Car Accident Dream Meaning — Being in a Crash, Watching One, and Whether It's a Warning",
+    "package": "028-car-accident-dream",
+    "scheduled_at": "2026-09-11T03:11:00Z",
+    "scheduled_kst": "2026-09-11 12:11 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-029",
+    "slug": "broken-phone-dream",
+    "title": "Phone Dream Meaning — When Calls Won't Connect and Your Phone Breaks",
+    "package": "029-broken-phone-dream",
+    "scheduled_at": "2026-09-13T05:23:00Z",
+    "scheduled_kst": "2026-09-13 14:23 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-030",
+    "slug": "drowning-dream",
+    "title": "Drowning Dream Meaning — Getting Out, Not Getting Out, and Watching Someone Else Drown",
+    "package": "030-drowning-dream",
+    "scheduled_at": "2026-09-14T03:26:00Z",
+    "scheduled_kst": "2026-09-14 12:26 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-031",
+    "slug": "elevator-dream",
+    "title": "Elevator Dream Meaning — Falling, Stopping, and Doors That Won't Open",
+    "package": "031-elevator-dream",
+    "scheduled_at": "2026-09-14T05:28:00Z",
+    "scheduled_kst": "2026-09-14 14:28 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-032",
+    "slug": "lost-belongings-dream",
+    "title": "Lost Belongings Dream Meaning — Wallets, Keys, Bags, and IDs You Lost in Your Sleep",
+    "package": "032-lost-belongings-dream",
+    "scheduled_at": "2026-09-15T03:31:00Z",
+    "scheduled_kst": "2026-09-15 12:31 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-033",
+    "slug": "authority-dream",
+    "title": "Boss Dream Meaning — Being Scolded, Evaluated, and Old Teachers Showing Up, by Situation",
+    "package": "033-authority-dream",
+    "scheduled_at": "2026-09-17T05:43:00Z",
+    "scheduled_kst": "2026-09-17 14:43 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-034",
+    "slug": "cant-run-dream",
+    "title": "Can't Run Dream Meaning — When Your Feet Won't Move and Your Body Feels Heavy",
+    "package": "034-cant-run-dream",
+    "scheduled_at": "2026-09-18T03:46:00Z",
+    "scheduled_kst": "2026-09-18 12:46 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-035",
+    "slug": "celebrity-dream",
+    "title": "Celebrity Dream Meaning — Idols, Presidents, and Getting Close to a Famous Person",
+    "package": "035-celebrity-dream",
+    "scheduled_at": "2026-09-18T05:48:00Z",
+    "scheduled_kst": "2026-09-18 14:48 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-036",
+    "slug": "clothes-dream",
+    "title": "Clothes Dream Meaning — New Clothes, Dirty Clothes, and White Clothes by Situation",
+    "package": "036-clothes-dream",
+    "scheduled_at": "2026-09-19T03:51:00Z",
+    "scheduled_kst": "2026-09-19 12:51 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-037",
+    "slug": "earthquake-dream",
+    "title": "Earthquake Dream Meaning — Shaking Ground, Cracking Ground, and Buildings Collapsing",
+    "package": "037-earthquake-dream",
+    "scheduled_at": "2026-09-19T05:53:00Z",
+    "scheduled_kst": "2026-09-19 14:53 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-038",
+    "slug": "eating-dream",
+    "title": "Eating Dream Meaning — Eating Alone, Eating With Others, and Actually Tasting Food",
+    "package": "038-eating-dream",
+    "scheduled_at": "2026-09-20T03:56:00Z",
+    "scheduled_kst": "2026-09-20 12:56 KST",
+    "requires": "korean-live"
+  },
+  {
+    "id": "en-039",
+    "slug": "childbirth-dream",
+    "title": "Childbirth Dream Meaning — Giving Birth, Holding a Baby, and Whether It's a Taemong",
+    "package": "039-childbirth-dream",
+    "scheduled_at": "2026-10-01T03:30:00Z",
+    "scheduled_kst": "2026-10-01 12:30 KST",
+    "requires": "korean-live"
+  }
+]
