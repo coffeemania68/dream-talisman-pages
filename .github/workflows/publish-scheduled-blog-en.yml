@@ -1,0 +1,50 @@
+name: Publish scheduled English Dream Blog posts
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dream-blog-scheduled-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish-due-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Load isolated English schedule payload
+        shell: bash
+        run: |
+          git fetch origin scheduled-blog-en-202609
+          mkdir -p "$RUNNER_TEMP/dream-blog-en"
+          git archive origin/scheduled-blog-en-202609 | tar -x -C "$RUNNER_TEMP/dream-blog-en"
+
+      - name: Promote verified due English posts
+        id: promote
+        shell: bash
+        run: |
+          python3 -m py_compile scripts/publish_scheduled_blog_en.py
+          python3 scripts/publish_scheduled_blog_en.py \
+            --root "$GITHUB_WORKSPACE" \
+            --payload "$RUNNER_TEMP/dream-blog-en" \
+            --github-output "$GITHUB_OUTPUT"
+          git diff --check
+
+      - name: Commit and publish
+        if: steps.promote.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "Dream Blog English Scheduler"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "Publisher reported changes but staged diff is empty" >&2; exit 1; }
+          git commit -m "Publish due English Dream Blog post(s)"
+          git push origin HEAD:main
