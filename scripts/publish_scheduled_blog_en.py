@@ -178,12 +178,15 @@ def main() -> int:
 
     if ready:
         for entry in ready:
+            applied.add(entry["id"])
+            print(f"promoted {entry['id']} {entry['slug']} ({entry['scheduled_kst']})")
+        for entry in entries:
+            if entry["id"] not in applied:
+                continue
             slug = entry["slug"]
             source = payload / "packages" / entry["package"] / "site" / "en" / "blog" / slug
             target = root / "en" / "blog" / slug
             shutil.copytree(source, target, dirs_exist_ok=True)
-            applied.add(entry["id"])
-            print(f"promoted {entry['id']} {slug} ({entry['scheduled_kst']})")
         ordered = [entry["id"] for entry in entries if entry["id"] in applied]
         applied_slugs = [entry["slug"] for entry in entries if entry["id"] in applied]
         rebuild_index(root, payload, entries, applied)
