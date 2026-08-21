@@ -126,7 +126,7 @@ def rebuild_index(root: Path, payload: Path, entries: list[dict], applied: set[s
     start = template.index(marker) + len(marker)
     end = template.index('</div>\n<footer class="blog-footer">', start)
     cards = []
-    for entry in reversed(entries):
+    for entry in sorted(entries, key=lambda item: parse_utc(item["scheduled_at"]), reverse=True):
         if entry["id"] not in applied:
             continue
         cards.append((payload / "packages" / entry["package"] / "card.html").read_text(encoding="utf-8").strip())

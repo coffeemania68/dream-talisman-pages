@@ -64,6 +64,7 @@ class EnglishSchedulerTest(unittest.TestCase):
         self.assertIn('/en/blog/dragon-dream/', index)
         self.assertIn('/en/blog/tiger-dream/', index)
         self.assertNotIn('/en/blog/dog-dream/', index)
+        self.assertNotIn('/en/blog/fire-dream/', index)
         korean = (root / "blog/dragon-dream/index.html").read_text()
         self.assertIn('href="/en/blog/dragon-dream/"', korean)
         self.assertIn('hreflang="en" href="https://dream.mypawstory.com/en/blog/dragon-dream/"', korean)
@@ -92,7 +93,7 @@ class EnglishSchedulerTest(unittest.TestCase):
 
     def test_payload_packages_are_narrow(self):
         manifest = json.loads((PAYLOAD / "manifest-en.json").read_text())
-        self.assertEqual(len(manifest), 40)
+        self.assertEqual(len(manifest), 41)
         for entry in manifest:
             package = PAYLOAD / "packages" / entry["package"]
             files = sorted(str(path.relative_to(package)) for path in package.rglob("*") if path.is_file())
