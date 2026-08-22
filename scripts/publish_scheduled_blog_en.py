@@ -113,6 +113,21 @@ def patch_sitemap(root: Path, slugs: list[str]) -> None:
         ko, en = article_urls(slug)
         patch_block(ko, sitemap_links(slug), True)
         patch_block(en, sitemap_links(slug), False)
+
+    seen_locs: set[str] = set()
+
+    def dedupe_url(match: re.Match[str]) -> str:
+        block = match.group(0)
+        loc_match = re.search(r"<loc>([^<]+)</loc>", block)
+        if not loc_match:
+            return block
+        loc = loc_match.group(1)
+        if loc in seen_locs:
+            return ""
+        seen_locs.add(loc)
+        return block
+
+    xml = re.sub(r"<url>[\s\S]*?</url>", dedupe_url, xml)
     after = set(re.findall(r"<loc>([^<]+)</loc>", xml))
     missing = sorted(before - after)
     if missing:
