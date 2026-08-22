@@ -235,137 +235,450 @@
   },
   {
     "id": "en-026",
-    "slug": "family-dream",
-    "title": "Family Dream Meaning — Parents, Siblings, and Dreams of Family Fighting",
-    "package": "026-family-dream",
-    "scheduled_at": "2026-09-09T05:03:00Z",
-    "scheduled_kst": "2026-09-09 14:03 KST",
-    "requires": "korean-live"
+    "slug": "fire-dream",
+    "package": "026-fire-dream",
+    "scheduled_at": "2026-08-30T23:01:00Z",
+    "scheduled_kst": "2026-08-31 08:01 KST"
   },
   {
     "id": "en-027",
-    "slug": "crying-dream",
-    "title": "Crying Dream Meaning — Crying Aloud, Someone Else Crying, and Waking Up in Tears",
-    "package": "027-crying-dream",
-    "scheduled_at": "2026-09-10T05:08:00Z",
-    "scheduled_kst": "2026-09-10 14:08 KST",
-    "requires": "korean-live"
+    "slug": "fish-dream",
+    "package": "027-fish-dream",
+    "scheduled_at": "2026-08-31T05:03:00Z",
+    "scheduled_kst": "2026-08-31 14:03 KST"
   },
   {
     "id": "en-028",
-    "slug": "car-accident-dream",
-    "title": "Car Accident Dream Meaning — Being in a Crash, Watching One, and Whether It's a Warning",
-    "package": "028-car-accident-dream",
-    "scheduled_at": "2026-09-11T03:11:00Z",
-    "scheduled_kst": "2026-09-11 12:11 KST",
-    "requires": "korean-live"
+    "slug": "flying-dream",
+    "package": "028-flying-dream",
+    "scheduled_at": "2026-08-31T11:07:00Z",
+    "scheduled_kst": "2026-08-31 20:07 KST"
   },
   {
     "id": "en-029",
-    "slug": "broken-phone-dream",
-    "title": "Phone Dream Meaning — When Calls Won't Connect and Your Phone Breaks",
-    "package": "029-broken-phone-dream",
-    "scheduled_at": "2026-09-13T05:23:00Z",
-    "scheduled_kst": "2026-09-13 14:23 KST",
-    "requires": "korean-live"
+    "slug": "grave-dream",
+    "package": "029-grave-dream",
+    "scheduled_at": "2026-08-31T23:05:00Z",
+    "scheduled_kst": "2026-09-01 08:05 KST"
   },
   {
     "id": "en-030",
-    "slug": "drowning-dream",
-    "title": "Drowning Dream Meaning — Getting Out, Not Getting Out, and Watching Someone Else Drown",
-    "package": "030-drowning-dream",
-    "scheduled_at": "2026-09-14T03:26:00Z",
-    "scheduled_kst": "2026-09-14 12:26 KST",
-    "requires": "korean-live"
+    "slug": "haircut-dream",
+    "package": "030-haircut-dream",
+    "scheduled_at": "2026-09-01T05:07:00Z",
+    "scheduled_kst": "2026-09-01 14:07 KST"
   },
   {
     "id": "en-031",
-    "slug": "elevator-dream",
-    "title": "Elevator Dream Meaning — Falling, Stopping, and Doors That Won't Open",
-    "package": "031-elevator-dream",
-    "scheduled_at": "2026-09-14T05:28:00Z",
-    "scheduled_kst": "2026-09-14 14:28 KST",
-    "requires": "korean-live"
+    "slug": "horse-dream",
+    "package": "031-horse-dream",
+    "scheduled_at": "2026-09-01T11:11:00Z",
+    "scheduled_kst": "2026-09-01 20:11 KST"
   },
   {
     "id": "en-032",
-    "slug": "lost-belongings-dream",
-    "title": "Lost Belongings Dream Meaning — Wallets, Keys, Bags, and IDs You Lost in Your Sleep",
-    "package": "032-lost-belongings-dream",
-    "scheduled_at": "2026-09-15T03:31:00Z",
-    "scheduled_kst": "2026-09-15 12:31 KST",
-    "requires": "korean-live"
+    "slug": "house-collapse-dream",
+    "package": "032-house-collapse-dream",
+    "scheduled_at": "2026-09-01T23:09:00Z",
+    "scheduled_kst": "2026-09-02 08:09 KST"
   },
   {
     "id": "en-033",
-    "slug": "authority-dream",
-    "title": "Boss Dream Meaning — Being Scolded, Evaluated, and Old Teachers Showing Up, by Situation",
-    "package": "033-authority-dream",
-    "scheduled_at": "2026-09-17T05:43:00Z",
-    "scheduled_kst": "2026-09-17 14:43 KST",
-    "requires": "korean-live"
+    "slug": "house-dream",
+    "package": "033-house-dream",
+    "scheduled_at": "2026-09-02T05:11:00Z",
+    "scheduled_kst": "2026-09-02 14:11 KST"
   },
   {
     "id": "en-034",
-    "slug": "cant-run-dream",
-    "title": "Can't Run Dream Meaning — When Your Feet Won't Move and Your Body Feels Heavy",
-    "package": "034-cant-run-dream",
-    "scheduled_at": "2026-09-18T03:46:00Z",
-    "scheduled_kst": "2026-09-18 12:46 KST",
-    "requires": "korean-live"
+    "slug": "lucid-dream",
+    "package": "034-lucid-dream",
+    "scheduled_at": "2026-09-02T11:15:00Z",
+    "scheduled_kst": "2026-09-02 20:15 KST"
   },
   {
     "id": "en-035",
-    "slug": "celebrity-dream",
-    "title": "Celebrity Dream Meaning — Idols, Presidents, and Getting Close to a Famous Person",
-    "package": "035-celebrity-dream",
-    "scheduled_at": "2026-09-18T05:48:00Z",
-    "scheduled_kst": "2026-09-18 14:48 KST",
-    "requires": "korean-live"
+    "slug": "missing-train-dream",
+    "package": "035-missing-train-dream",
+    "scheduled_at": "2026-09-02T23:13:00Z",
+    "scheduled_kst": "2026-09-03 08:13 KST"
   },
   {
     "id": "en-036",
-    "slug": "clothes-dream",
-    "title": "Clothes Dream Meaning — New Clothes, Dirty Clothes, and White Clothes by Situation",
-    "package": "036-clothes-dream",
-    "scheduled_at": "2026-09-19T03:51:00Z",
-    "scheduled_kst": "2026-09-19 12:51 KST",
-    "requires": "korean-live"
+    "slug": "money-dream",
+    "package": "036-money-dream",
+    "scheduled_at": "2026-09-03T05:15:00Z",
+    "scheduled_kst": "2026-09-03 14:15 KST"
   },
   {
     "id": "en-037",
-    "slug": "earthquake-dream",
-    "title": "Earthquake Dream Meaning — Shaking Ground, Cracking Ground, and Buildings Collapsing",
-    "package": "037-earthquake-dream",
-    "scheduled_at": "2026-09-19T05:53:00Z",
-    "scheduled_kst": "2026-09-19 14:53 KST",
-    "requires": "korean-live"
+    "slug": "monkey-dream",
+    "package": "037-monkey-dream",
+    "scheduled_at": "2026-09-03T11:19:00Z",
+    "scheduled_kst": "2026-09-03 20:19 KST"
   },
   {
     "id": "en-038",
-    "slug": "eating-dream",
-    "title": "Eating Dream Meaning — Eating Alone, Eating With Others, and Actually Tasting Food",
-    "package": "038-eating-dream",
-    "scheduled_at": "2026-09-20T03:56:00Z",
-    "scheduled_kst": "2026-09-20 12:56 KST",
-    "requires": "korean-live"
+    "slug": "moon-dream",
+    "package": "038-moon-dream",
+    "scheduled_at": "2026-09-03T23:17:00Z",
+    "scheduled_kst": "2026-09-04 08:17 KST"
   },
   {
     "id": "en-039",
-    "slug": "childbirth-dream",
-    "title": "Childbirth Dream Meaning — Giving Birth, Holding a Baby, and Whether It's a Taemong",
-    "package": "039-childbirth-dream",
-    "scheduled_at": "2026-10-01T03:30:00Z",
-    "scheduled_kst": "2026-10-01 12:30 KST",
-    "requires": "korean-live"
+    "slug": "pig-dream",
+    "package": "039-pig-dream",
+    "scheduled_at": "2026-09-04T05:19:00Z",
+    "scheduled_kst": "2026-09-04 14:19 KST"
   },
   {
     "id": "en-040",
-    "slug": "fire-dream",
-    "title": "Fire Dream Meaning — House Fires, Putting Out Flames, and Escaping by Situation",
-    "package": "040-fire-dream",
-    "scheduled_at": "2026-08-31T00:30:00Z",
-    "scheduled_kst": "2026-08-31 09:30 KST",
-    "requires": "korean-live"
+    "slug": "pregnancy-dream",
+    "package": "040-pregnancy-dream",
+    "scheduled_at": "2026-09-04T11:23:00Z",
+    "scheduled_kst": "2026-09-04 20:23 KST"
+  },
+  {
+    "id": "en-041",
+    "slug": "rabbit-dream",
+    "package": "041-rabbit-dream",
+    "scheduled_at": "2026-09-04T23:21:00Z",
+    "scheduled_kst": "2026-09-05 08:21 KST"
+  },
+  {
+    "id": "en-042",
+    "slug": "rain-dream",
+    "package": "042-rain-dream",
+    "scheduled_at": "2026-09-05T05:23:00Z",
+    "scheduled_kst": "2026-09-05 14:23 KST"
+  },
+  {
+    "id": "en-043",
+    "slug": "rat-dream",
+    "package": "043-rat-dream",
+    "scheduled_at": "2026-09-05T11:27:00Z",
+    "scheduled_kst": "2026-09-05 20:27 KST"
+  },
+  {
+    "id": "en-044",
+    "slug": "sea-dream",
+    "package": "044-sea-dream",
+    "scheduled_at": "2026-09-05T23:25:00Z",
+    "scheduled_kst": "2026-09-06 08:25 KST"
+  },
+  {
+    "id": "en-045",
+    "slug": "sky-dream",
+    "package": "045-sky-dream",
+    "scheduled_at": "2026-09-06T05:27:00Z",
+    "scheduled_kst": "2026-09-06 14:27 KST"
+  },
+  {
+    "id": "en-046",
+    "slug": "sleep-paralysis",
+    "package": "046-sleep-paralysis",
+    "scheduled_at": "2026-09-06T11:31:00Z",
+    "scheduled_kst": "2026-09-06 20:31 KST"
+  },
+  {
+    "id": "en-047",
+    "slug": "snake-dream",
+    "package": "047-snake-dream",
+    "scheduled_at": "2026-09-06T23:29:00Z",
+    "scheduled_kst": "2026-09-07 08:29 KST"
+  },
+  {
+    "id": "en-048",
+    "slug": "star-dream",
+    "package": "048-star-dream",
+    "scheduled_at": "2026-09-07T05:31:00Z",
+    "scheduled_kst": "2026-09-07 14:31 KST"
+  },
+  {
+    "id": "en-049",
+    "slug": "teeth-falling-out-dream",
+    "package": "049-teeth-falling-out-dream",
+    "scheduled_at": "2026-09-07T11:35:00Z",
+    "scheduled_kst": "2026-09-07 20:35 KST"
+  },
+  {
+    "id": "en-050",
+    "slug": "travel-dream",
+    "package": "050-travel-dream",
+    "scheduled_at": "2026-09-08T01:03:00Z",
+    "scheduled_kst": "2026-09-08 10:03 KST"
+  },
+  {
+    "id": "en-051",
+    "slug": "turtle-dream",
+    "package": "051-turtle-dream",
+    "scheduled_at": "2026-09-08T11:11:00Z",
+    "scheduled_kst": "2026-09-08 20:11 KST"
+  },
+  {
+    "id": "en-052",
+    "slug": "water-dream",
+    "package": "052-water-dream",
+    "scheduled_at": "2026-09-09T01:08:00Z",
+    "scheduled_kst": "2026-09-09 10:08 KST"
+  },
+  {
+    "id": "en-053",
+    "slug": "wedding-dream",
+    "package": "053-wedding-dream",
+    "scheduled_at": "2026-09-09T11:16:00Z",
+    "scheduled_kst": "2026-09-09 20:16 KST"
+  },
+  {
+    "id": "en-054",
+    "slug": "voiceless-dream",
+    "package": "054-voiceless-dream",
+    "scheduled_at": "2026-09-10T01:13:00Z",
+    "scheduled_kst": "2026-09-10 10:13 KST"
+  },
+  {
+    "id": "en-055",
+    "slug": "family-dream",
+    "package": "055-family-dream",
+    "scheduled_at": "2026-09-10T11:21:00Z",
+    "scheduled_kst": "2026-09-10 20:21 KST"
+  },
+  {
+    "id": "en-056",
+    "slug": "stranger-dream",
+    "package": "056-stranger-dream",
+    "scheduled_at": "2026-09-11T01:18:00Z",
+    "scheduled_kst": "2026-09-11 10:18 KST"
+  },
+  {
+    "id": "en-057",
+    "slug": "crying-dream",
+    "package": "057-crying-dream",
+    "scheduled_at": "2026-09-11T11:26:00Z",
+    "scheduled_kst": "2026-09-11 20:26 KST"
+  },
+  {
+    "id": "en-058",
+    "slug": "car-accident-dream",
+    "package": "058-car-accident-dream",
+    "scheduled_at": "2026-09-12T01:23:00Z",
+    "scheduled_kst": "2026-09-12 10:23 KST"
+  },
+  {
+    "id": "en-059",
+    "slug": "recurring-dream",
+    "package": "059-recurring-dream",
+    "scheduled_at": "2026-09-12T11:31:00Z",
+    "scheduled_kst": "2026-09-12 20:31 KST"
+  },
+  {
+    "id": "en-060",
+    "slug": "mirror-dream",
+    "package": "060-mirror-dream",
+    "scheduled_at": "2026-09-13T01:28:00Z",
+    "scheduled_kst": "2026-09-13 10:28 KST"
+  },
+  {
+    "id": "en-061",
+    "slug": "tree-dream",
+    "package": "061-tree-dream",
+    "scheduled_at": "2026-09-13T11:36:00Z",
+    "scheduled_kst": "2026-09-13 20:36 KST"
+  },
+  {
+    "id": "en-062",
+    "slug": "fruit-dream",
+    "package": "062-fruit-dream",
+    "scheduled_at": "2026-09-14T01:33:00Z",
+    "scheduled_kst": "2026-09-14 10:33 KST"
+  },
+  {
+    "id": "en-063",
+    "slug": "broken-phone-dream",
+    "package": "063-broken-phone-dream",
+    "scheduled_at": "2026-09-14T11:41:00Z",
+    "scheduled_kst": "2026-09-14 20:41 KST"
+  },
+  {
+    "id": "en-064",
+    "slug": "drowning-dream",
+    "package": "064-drowning-dream",
+    "scheduled_at": "2026-09-15T01:38:00Z",
+    "scheduled_kst": "2026-09-15 10:38 KST"
+  },
+  {
+    "id": "en-065",
+    "slug": "elevator-dream",
+    "package": "065-elevator-dream",
+    "scheduled_at": "2026-09-15T11:46:00Z",
+    "scheduled_kst": "2026-09-15 20:46 KST"
+  },
+  {
+    "id": "en-066",
+    "slug": "lost-belongings-dream",
+    "package": "066-lost-belongings-dream",
+    "scheduled_at": "2026-09-16T01:43:00Z",
+    "scheduled_kst": "2026-09-16 10:43 KST"
+  },
+  {
+    "id": "en-067",
+    "slug": "lost-dream",
+    "package": "067-lost-dream",
+    "scheduled_at": "2026-09-16T11:51:00Z",
+    "scheduled_kst": "2026-09-16 20:51 KST"
+  },
+  {
+    "id": "en-068",
+    "slug": "missing-flight-dream",
+    "package": "068-missing-flight-dream",
+    "scheduled_at": "2026-09-17T01:48:00Z",
+    "scheduled_kst": "2026-09-17 10:48 KST"
+  },
+  {
+    "id": "en-069",
+    "slug": "public-embarrassment-dream",
+    "package": "069-public-embarrassment-dream",
+    "scheduled_at": "2026-09-17T11:56:00Z",
+    "scheduled_kst": "2026-09-17 20:56 KST"
+  },
+  {
+    "id": "en-070",
+    "slug": "unlocked-door-dream",
+    "package": "070-unlocked-door-dream",
+    "scheduled_at": "2026-09-18T01:53:00Z",
+    "scheduled_kst": "2026-09-18 10:53 KST"
+  },
+  {
+    "id": "en-071",
+    "slug": "authority-dream",
+    "package": "071-authority-dream",
+    "scheduled_at": "2026-09-18T12:01:00Z",
+    "scheduled_kst": "2026-09-18 21:01 KST"
+  },
+  {
+    "id": "en-072",
+    "slug": "cant-run-dream",
+    "package": "072-cant-run-dream",
+    "scheduled_at": "2026-09-19T01:58:00Z",
+    "scheduled_kst": "2026-09-19 10:58 KST"
+  },
+  {
+    "id": "en-073",
+    "slug": "celebrity-dream",
+    "package": "073-celebrity-dream",
+    "scheduled_at": "2026-09-19T12:06:00Z",
+    "scheduled_kst": "2026-09-19 21:06 KST"
+  },
+  {
+    "id": "en-074",
+    "slug": "clothes-dream",
+    "package": "074-clothes-dream",
+    "scheduled_at": "2026-09-20T02:03:00Z",
+    "scheduled_kst": "2026-09-20 11:03 KST"
+  },
+  {
+    "id": "en-075",
+    "slug": "earthquake-dream",
+    "package": "075-earthquake-dream",
+    "scheduled_at": "2026-09-20T12:11:00Z",
+    "scheduled_kst": "2026-09-20 21:11 KST"
+  },
+  {
+    "id": "en-076",
+    "slug": "eating-dream",
+    "package": "076-eating-dream",
+    "scheduled_at": "2026-09-21T02:08:00Z",
+    "scheduled_kst": "2026-09-21 11:08 KST"
+  },
+  {
+    "id": "en-077",
+    "slug": "flower-dream",
+    "package": "077-flower-dream",
+    "scheduled_at": "2026-09-21T12:16:00Z",
+    "scheduled_kst": "2026-09-21 21:16 KST"
+  },
+  {
+    "id": "en-078",
+    "slug": "friend-dream",
+    "package": "078-friend-dream",
+    "scheduled_at": "2026-09-22T02:13:00Z",
+    "scheduled_kst": "2026-09-22 11:13 KST"
+  },
+  {
+    "id": "en-079",
+    "slug": "gold-dream",
+    "package": "079-gold-dream",
+    "scheduled_at": "2026-09-22T12:21:00Z",
+    "scheduled_kst": "2026-09-22 21:21 KST"
+  },
+  {
+    "id": "en-080",
+    "slug": "insect-dream",
+    "package": "080-insect-dream",
+    "scheduled_at": "2026-09-23T02:18:00Z",
+    "scheduled_kst": "2026-09-23 11:18 KST"
+  },
+  {
+    "id": "en-081",
+    "slug": "mountain-dream",
+    "package": "081-mountain-dream",
+    "scheduled_at": "2026-09-23T12:26:00Z",
+    "scheduled_kst": "2026-09-23 21:26 KST"
+  },
+  {
+    "id": "en-082",
+    "slug": "ring-dream",
+    "package": "082-ring-dream",
+    "scheduled_at": "2026-09-24T02:23:00Z",
+    "scheduled_kst": "2026-09-24 11:23 KST"
+  },
+  {
+    "id": "en-083",
+    "slug": "shoes-dream",
+    "package": "083-shoes-dream",
+    "scheduled_at": "2026-09-24T12:31:00Z",
+    "scheduled_kst": "2026-09-24 21:31 KST"
+  },
+  {
+    "id": "en-084",
+    "slug": "childbirth-dream",
+    "package": "084-childbirth-dream",
+    "scheduled_at": "2026-09-25T02:28:00Z",
+    "scheduled_kst": "2026-09-25 11:28 KST"
+  },
+  {
+    "id": "en-085",
+    "slug": "flood-dream",
+    "package": "085-flood-dream",
+    "scheduled_at": "2026-09-25T12:36:00Z",
+    "scheduled_kst": "2026-09-25 21:36 KST"
+  },
+  {
+    "id": "en-086",
+    "slug": "injury-dream",
+    "package": "086-injury-dream",
+    "scheduled_at": "2026-09-26T02:33:00Z",
+    "scheduled_kst": "2026-09-26 11:33 KST"
+  },
+  {
+    "id": "en-087",
+    "slug": "snow-dream",
+    "package": "087-snow-dream",
+    "scheduled_at": "2026-09-26T12:41:00Z",
+    "scheduled_kst": "2026-09-26 21:41 KST"
+  },
+  {
+    "id": "en-088",
+    "slug": "stairs-dream",
+    "package": "088-stairs-dream",
+    "scheduled_at": "2026-09-27T02:38:00Z",
+    "scheduled_kst": "2026-09-27 11:38 KST"
+  },
+  {
+    "id": "en-089",
+    "slug": "urine-dream",
+    "package": "089-urine-dream",
+    "scheduled_at": "2026-09-27T12:46:00Z",
+    "scheduled_kst": "2026-09-27 21:46 KST"
   }
 ]
