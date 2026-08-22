@@ -1,0 +1,22 @@
+{
+  "name": "Dream Talisman — Korean Dream Interpretation",
+  "short_name": "Dream Talisman",
+  "description": "Explore Korean dream traditions and modern perspectives with Dream Talisman.",
+  "start_url": "/en/",
+  "scope": "/en/",
+  "display": "standalone",
+  "background_color": "#f6f0e6",
+  "theme_color": "#f6f0e6",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
