@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: "1,6,11,16,21,26,31,36,41,46,51,56 21 * * *"
     - cron: "1,6,11 22 * * *"
-    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 23 * * *"
-    - cron: "3,8,13 0 * * *"
+    - cron: "7,12,17,22,27,32,37,42,47,52,57 5 * * *"
+    - cron: "2,7,12,17 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,8 +27,11 @@ jobs:
         shell: bash
         run: |
           git fetch origin scheduled-blog-202608-rescheduled
+          git fetch origin scheduled-blog-en-202609
           mkdir -p "$RUNNER_TEMP/dream-blog-rescheduled"
+          mkdir -p "$RUNNER_TEMP/dream-blog-en"
           git archive origin/scheduled-blog-202608-rescheduled | tar -x -C "$RUNNER_TEMP/dream-blog-rescheduled"
+          git archive origin/scheduled-blog-en-202609 | tar -x -C "$RUNNER_TEMP/dream-blog-en"
 
       - name: Promote every package now due
         id: promote
@@ -75,6 +78,16 @@ jobs:
               handle.write(f"count={len(due)}\n")
               handle.write(f"complete={'true' if complete else 'false'}\n")
           PY
+
+      - name: Repair English locale surfaces after Korean promotion
+        if: steps.promote.outputs.changed == 'true'
+        shell: bash
+        run: |
+          python3 scripts/publish_scheduled_blog_en.py \
+            --root "$GITHUB_WORKSPACE" \
+            --payload "$RUNNER_TEMP/dream-blog-en" \
+            --repair
+          git diff --check
 
       - name: Commit and publish
         if: steps.promote.outputs.changed == 'true'

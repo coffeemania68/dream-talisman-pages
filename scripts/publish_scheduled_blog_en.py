@@ -148,6 +148,7 @@ def main() -> int:
     parser.add_argument("--payload", type=Path, required=True)
     parser.add_argument("--now")
     parser.add_argument("--github-output", type=Path)
+    parser.add_argument("--repair", action="store_true")
     args = parser.parse_args()
     root = args.root.resolve()
     payload = args.payload.resolve()
@@ -188,13 +189,17 @@ def main() -> int:
             target = root / "en" / "blog" / slug
             shutil.copytree(source, target, dirs_exist_ok=True)
         ordered = [entry["id"] for entry in entries if entry["id"] in applied]
+        state_path.write_text(json.dumps({"applied": ordered}, indent=2) + "\n", encoding="utf-8")
+
+    if (ready or args.repair) and applied:
         applied_slugs = [entry["slug"] for entry in entries if entry["id"] in applied]
         rebuild_index(root, payload, entries, applied)
         patch_korean_html(root / "blog" / "index.html")
         for slug in applied_slugs:
             patch_korean_html(root / "blog" / slug / "index.html", slug)
         patch_sitemap(root, applied_slugs)
-        state_path.write_text(json.dumps({"applied": ordered}, indent=2) + "\n", encoding="utf-8")
+        if args.repair and not ready:
+            print(f"repaired English index, reciprocal links, and sitemap for {len(applied_slugs)} applied article(s)")
 
     complete = len(applied) == len(entries)
     if complete and ready:
