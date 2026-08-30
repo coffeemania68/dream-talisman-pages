@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>https://dream.mypawstory.com/</loc><lastmod>2026-08-15</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/" /></url>
 <url><loc>https://dream.mypawstory.com/blog/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/" /></url>
-<url><loc>https://dream.mypawstory.com/blog/typhoon-dream/</loc><lastmod>2026-08-11</lastmod></url>
+<url><loc>https://dream.mypawstory.com/blog/typhoon-dream/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/typhoon-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/typhoon-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/blog/turtle-dream/</loc><lastmod>2026-08-11</lastmod></url>
 <url><loc>https://dream.mypawstory.com/blog/star-dream/</loc><lastmod>2026-08-11</lastmod></url>
 <url><loc>https://dream.mypawstory.com/blog/sky-dream/</loc><lastmod>2026-08-11</lastmod></url>
@@ -83,4 +83,5 @@
 <url><loc>https://dream.mypawstory.com/en/blog/blood-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/blood-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/blood-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/en/blog/feces-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/feces-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/feces-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/en/blog/new-house-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/new-house-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/new-house-dream/" /></url>
+<url><loc>https://dream.mypawstory.com/en/blog/typhoon-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/typhoon-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/typhoon-dream/" /></url>
 </urlset>
