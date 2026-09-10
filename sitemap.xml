@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>https://dream.mypawstory.com/</loc><lastmod>2026-08-15</lastmod></url>
 <url><loc>https://dream.mypawstory.com/blog/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/" /></url>
-<url><loc>https://dream.mypawstory.com/blog/voiceless-dream/</loc><lastmod>2026-08-11</lastmod></url>
+<url><loc>https://dream.mypawstory.com/blog/voiceless-dream/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/voiceless-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/voiceless-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/blog/typhoon-dream/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/typhoon-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/typhoon-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/blog/turtle-dream/</loc><lastmod>2026-08-11</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/turtle-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/turtle-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/blog/stranger-dream/</loc><lastmod>2026-08-11</lastmod></url>
@@ -117,4 +117,5 @@
 <url><loc>https://dream.mypawstory.com/en/blog/turtle-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/turtle-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/turtle-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/en/blog/water-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/water-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/water-dream/" /></url>
 <url><loc>https://dream.mypawstory.com/en/blog/wedding-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/wedding-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/wedding-dream/" /></url>
+<url><loc>https://dream.mypawstory.com/en/blog/voiceless-dream/</loc><xhtml:link rel="alternate" hreflang="ko" href="https://dream.mypawstory.com/blog/voiceless-dream/" /><xhtml:link rel="alternate" hreflang="en" href="https://dream.mypawstory.com/en/blog/voiceless-dream/" /></url>
 </urlset>
